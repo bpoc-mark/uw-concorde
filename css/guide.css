@@ -1,0 +1,252 @@
+
+/* main_img_detail
+===============================================================*/
+.guide_main_img_detail {
+	padding:100px 0 0 0;
+}
+
+.guide_main_img_detail .tit {
+	height:148px;
+	padding:0 0 0 90px;
+}
+
+.main_img_detail .bg_guide01 {
+	background:url(../images/guide/main01.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+
+/* top
+===============================================================*/
+
+.alink{
+	position: relative;
+}
+
+/* box01_02
+===============================================================*/
+.box01_in,
+.box01_02 {
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px 15px 40px 15px;
+	max-width: 355px;
+	width: 100%;
+}
+.box01_02 .sb_02 ul.cate {
+	padding:0 0 30px 0;
+	text-align:center;
+}
+
+.box01_02 .sb_02 ul.cate li {
+	display:inline-block;
+	border:#cb8625 1px solid;
+	padding:2px 8px;
+	color:#ce8e34;
+	margin:0 2px;
+}
+
+.box01_02 .sb_02 ul.btns {
+	width:485px;
+	margin:0 auto;
+}
+
+.box01_02 .sb_02 ul.btns .morebtn {
+	width:230px;
+	float:left;
+}
+
+.box01_02 .sb_02 ul.btns .convbtn {
+	width:230px;
+	float:right;
+	padding:0;
+}
+
+.box01_02 .sb_02 ul.btns .convbtn a {
+	width:230px;
+}
+.box01_02 .sb_02 p.g_btn a{
+	width: 50%;
+}
+.g_box01 div.mb{
+	margin-bottom: 0;	
+}
+
+.box01_02.bnone {
+	display: none;
+}
+
+@media screen and (max-width: 1360px) {
+
+.box01_02.bnone {
+	display: inline-block;
+}
+
+}
+
+
+/* box01_in
+===============================================================*/
+
+.sb_02 a {
+	text-decoration:none;
+	max-width: 230px;
+	width: 100%;
+}
+p.g_img img{
+	width: 100%;
+	max-width: 354px;
+}
+.sb_02 .stair {
+	line-height: 1.4;
+	font-size:18px;
+	text-align:center;
+	color:#786e51;
+	margin: 18px 0 5px 0;
+}
+.sb_02 .stair span {
+	font-size:16px;
+}
+.sb_02 .g_int{
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+.sb_02 .sub {
+	font-size:18px;
+	text-align:left;
+	line-height:.9;
+}
+.sb_02 .g_cen{
+	text-align: center;
+}
+.sb_02 p.g_s{
+	margin-bottom: 25px;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.sb_02 p.g_ss{
+	margin-bottom: 0;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.sb_02 p.mb{
+	margin-bottom: 0;
+}
+.sb_02 h4 {
+	font-size:24px;
+	text-align:center;
+	line-height:1.2;
+	padding:10px 0 25px 0;
+}
+.sb_02 ul.cate {
+	padding:0 0 30px 0;
+	text-align:center;
+}
+
+.sb_02 ul.cate li {
+	display:inline-block;
+	border:#cb8625 1px solid;
+	padding:2px 8px;
+	color:#ce8e34;
+	margin:0 2px;
+}
+
+.sb_02 ul.btns {
+	width:485px;
+	margin:0 auto;
+}
+
+.sb_02 ul.btns .morebtn {
+	width:230px;
+	float:left;
+}
+
+ .sb_02 ul.btns .convbtn {
+	width:230px;
+	float:right;
+	padding:0;
+}
+
+.sb_02 ul.btns .convbtn a {
+	width:230px;
+}
+.sb_02 p.g_btn a{
+	width: 50%;
+}
+.sb_02 h4.t{
+padding-top: 0;	
+}
+.b{
+	padding-bottom: 0;
+}
+/* box01_03
+===============================================================*/
+.box01_03{
+	margin-top: 20px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box01_03 div.sb_03{
+	max-width: 336px;
+	width: 100%;
+	margin-left: 35px;
+	text-align: left;
+}
+.box01_03 div.sb_03 ul li:first-child{
+	margin-bottom: 15px;
+}
+.box01_03 .g_img img{
+	width: 100%;
+	height: auto;
+}
+.box01_03 li.morebtn{
+	display: inline-block;
+}
+
+/* anchor
+===============================================================*/
+.anchor {
+	width: 90%;
+	margin:45px auto 100px auto;
+}
+
+.anchor_pt {
+	padding:50px 0 0 0;
+}
+
+.anchor li {
+	width:25%;
+	float:left;
+}
+
+.anchor_pt li {
+	width:33.3%;
+	float:left;
+}
+
+.anchor li a {
+	display:block;
+	font-size:18px;
+	color:#786e51;
+	padding:20px 18px 20px 18px;
+	margin:5px;
+	text-align:center;
+	text-decoration:none;
+	background-color:#eceae5;
+	transition: all 300ms 0s ease;
+}
+
+.anchor li a span {
+	padding:0 20px 0 0;
+	background:url(../images/restaurant/dohman/ar01.jpg) no-repeat right 50%;
+}
+
+.anchor li a:hover {
+	opacity:0.7;
+}

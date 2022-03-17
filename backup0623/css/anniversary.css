@@ -1,0 +1,486 @@
+/* common
+=====================================*/
+body{
+  background: url(/images/anniversary/bg_pattern.jpg);
+}
+header{
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  z-index: 300;
+}
+div#SideBar{
+  top: 30px;
+  right: 30px;
+  background: url(/images/anniversary/icon_hexagon.svg) no-repeat;
+  background-size: contain;
+  width: 103px;
+  height: 89px;
+}
+div#SideBar .menu_btn{
+  margin: 0;
+}
+div#SideBar .menu-trigger{
+  padding: 39px;
+}
+div#SideBar .menu-trigger span{
+  left: auto;
+}
+div#SideBar .navigation{
+  display: none;
+  opacity: 1;
+  transition: none;
+}
+
+main{
+  position: relative;
+  z-index: 201;
+  display: block;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+main img{
+  width: 100%;
+}
+main a{
+  transition: .3s;
+}
+main p.att{
+  color: #777167;
+  font-size: 14px;
+}
+
+/* intro
+=====================================*/
+main .intro{
+  background: url(/images/anniversary/intro_bg.png) top center;
+  padding: 52px 50px 95px;
+  text-align: center;
+}
+main .intro .main{
+  position: relative;
+  max-width: 1050px;
+  margin: auto;
+}
+main .intro .main ul{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 45px;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1167px){
+  main .intro .main ul{
+    bottom: 3.9vw;
+  }
+}
+main .intro .main ul li{
+  width: 36vw;
+  max-width: 416px;
+  margin-right: 24px;
+}
+main .intro .main ul li:last-child{
+  margin-right: 0;
+}
+main .intro .main ul li a:hover{
+  opacity: .7;
+}
+
+main p.top_info{
+  text-align: left;
+  background: white;
+  border-radius: 17px;
+  padding: 30px 70px;
+  color: #a20000;
+  max-width: 940px;
+  margin: 40px auto 0;
+}
+
+main p.top_info span {font-weight: 700;}
+
+main .intro .venue{
+  max-width: 1000px;
+  margin: 75px auto 0;
+}
+main .intro .venue h2{
+  width: 462px;
+  margin: 0 auto 60px;
+}
+main .intro .venue ul{
+  display: flex;
+  justify-content: space-between;
+}
+main .intro .venue ul li{
+  max-width: 309px;
+  margin-right: 36px;
+}
+main .intro .venue ul li:last-child{
+  margin-right: 0;
+}
+main .intro .venue ul li p{
+  margin: 15px 0 0;
+  line-height: 24px;
+}
+main .intro .venue p.att{
+  margin: 55px 0 0;
+  text-align: left;
+}
+
+/* box
+=====================================*/
+main section .box{
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  background: url(/images/anniversary/plan_bg1.png) no-repeat top center;
+  background-size: contain;
+  max-width: 1000px;
+  margin: 0 auto 20px;
+  padding: 30px;
+}
+main section .box::before{
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: url(/images/anniversary/plan_bg2.png) repeat-y top center;
+  background-size: contain;
+  width: 100%;
+  height: calc(100% - 70px);
+}
+main section .box::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: url(/images/anniversary/plan_bg3.png) no-repeat bottom center;
+  background-size: contain;
+  width: 100%;
+  height: 128px;
+}
+main section .box > .info{
+  background: url(/images/anniversary/line-red.png) no-repeat bottom center;
+  background-size: contain;
+  padding: 0 0 45px;
+}
+main section .box .info .ph{
+  float: right;
+  max-width: 377px;
+  margin-left: 10px;
+}
+main section .box .info .textWrap{
+  float: left;
+  width: calc(100% - 388px);
+  margin: 22px 0 0;
+}
+main section .box .info .textWrap h3{
+  background: url(/images/anniversary/line-dot_03.png) repeat-x left bottom;
+  background-size: 36px 4px;
+  padding: 0 0 20px;
+  margin: 0 0 26px;
+}
+main section .box .info .textWrap p{
+  max-width: 500px;
+  line-height: 26px;
+}
+main section .box .info .textWrap p.att{
+  margin: 10px 0 0;
+}
+main section .box .info .textWrap a.btn{
+  display: inline-block;
+  width: 215px;
+  margin: 32px 0 0;
+}
+main section .box .info .textWrap a.btn:hover{
+  opacity: .7;
+}
+main section .box > ul > li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: url(/images/anniversary/line-beige.png) no-repeat bottom center;
+  background-size: contain;
+  padding: 30px 20px;
+}
+main section .box > ul > li:last-child{
+  background: none;
+  padding-bottom: 20px;
+}
+main section .box > ul > li .ph{
+  width: 32%;
+  max-width: 183px;
+  margin-right: 15px;
+}
+main section .box > ul > li.planA .ph{
+  max-width: 187px;
+}
+main section .box > ul > li p.tag{
+  float: left;
+  color: #fff;
+  background: #b45d88;
+  margin: 0 5px 13px 0;
+  padding: 5px 9px 6px;
+  border-radius: 15px;
+  font-size: 13px;
+  line-height: 1;
+}
+main section .box > ul > li.planA p.price{
+  max-width: 297px;
+}
+main section .box > ul > li.planB p.price{
+  max-width: 280px;
+}
+main section .box > ul > li.planC p.price{
+  max-width: 278px;
+}
+main section .box > ul > li p.info{
+  margin: 6px 0 0;
+  line-height: 26px;
+}
+main section .box > ul > li .text{
+  width: 65%;
+  max-width: 390px;
+  margin-right: 19px;
+}
+main section .box > ul > li .btns{
+  width: 49%;
+  max-width: 289px;
+}
+main section .box > ul > li .btns ul li{
+  margin: 0 0 6px;
+}
+main section .box > ul > li .btns ul li:last-child{
+  margin: 0;
+}
+main section .box > ul > li .btns a:hover{
+  opacity: .7;
+}
+
+
+
+/* auspicious
+=====================================*/
+main .auspicious{
+  position: relative;
+  background: rgba(255,216,210,.32);
+}
+main .auspicious::before{
+  position: absolute;
+  top: -14px;
+  left: 0;
+  right: 0;
+  content: "";
+  background: url(/images/anniversary/icon_kazarihimo.svg) no-repeat;
+  background-size: contain;
+  width: 29px;
+  height: 28px;
+  margin: auto;
+}
+main .auspicious .inner{
+  background: url(/images/anniversary/auspicious_bg.png) top center;
+  padding: 67px 50px 90px;
+}
+main .auspicious h2{
+  width: 140px;
+  margin: 0 auto 62px;
+}
+main .auspicious .plan01 h3 img{
+  max-width: 477px;
+}
+main .auspicious .plan02 h3 img{
+  max-width: 411px;
+}
+main .auspicious .plan03 h3 img{
+  max-width: 470px;
+}
+main .auspicious .plan04 h3 img{
+  max-width: 412px;
+}
+main .auspicious .plan02 .info .textWrap p.att{
+  margin: 0 0 10px;
+}
+main .auspicious .plan02 .textWrap ul li{
+  padding-left: 1.2em;
+  text-indent: -1.2em;
+}
+
+/* bms
+=====================================*/
+main .bms{
+  position: relative;
+  background: rgba(228,215,241,.5);
+}
+main .bms::before{
+  position: absolute;
+  top: -17px;
+  left: 0;
+  right: 0;
+  content: "";
+  background: url(/images/anniversary/icon_kazarihimo2.svg) no-repeat;
+  background-size: contain;
+  width: 89px;
+  height: 28px;
+  margin: auto;
+}
+main .bms .inner{
+  background: url(/images/anniversary/bms_bg.png) top center;
+  padding: 67px 50px 90px;
+}
+main .bms .box > .info{
+  background: url(/images/anniversary/line-black.png) no-repeat bottom center;
+  background-size: contain;
+}
+main .bms h2{
+  width: 102px;
+  margin: 0 auto 62px;
+}
+main .bms .plan05 h3 img{
+  max-width: 399px;
+}
+
+main .bms .box > ul > li .ph{
+  max-width: 171px;
+}
+main .bms .box > ul > li.planA .ph{
+  max-width: 175px;
+}
+
+main .bms .box > ul > li.planA p.price{
+  max-width: 277px;
+}
+main .bms .box > ul > li.planB p.price{
+  max-width: 275px;
+}
+main .bms .box > ul > li.planC p.price{
+  max-width: 280px;
+}
+main .bms .box.bus{
+  position: relative;
+  padding: 48px 45px 55px 29px;
+}
+main .bms .box.bus .bg{
+  max-width: 926px;
+}
+main .bms .box.bus p{
+  position: absolute;
+  top: 197px;
+  right: 54px;
+  width: 51.2%;
+  max-width: 512px;
+  line-height: 29px;
+}
+main .bms .box.bus .ph{
+  position: absolute;
+  top: 284px;
+  right: 75px;
+  width: 50%;
+  max-width: 485px;
+}
+@media screen and (max-width: 1117px){
+  main .bms .box.bus p{
+    top: 17.6vw;
+    right: 5.7vw;
+    font-size: 1.4vw;
+    line-height: 1.8;
+  }
+  main .bms .box.bus .ph{
+    top: 25.4vw;
+    right: 6.7vw;
+  }
+}
+
+/* contact
+=====================================*/
+main .contact{
+  padding: 80px 20px 40px;
+}
+main .contact .inner{
+  position: relative;
+  box-sizing: border-box;
+  background: rgba(255,255,255,.38);
+  max-width: 1000px;
+  margin: auto;
+  padding: 54px 100px;
+  border: 3px solid #fff;
+}
+main .contact .inner::before{
+  content: "";
+  position: absolute;
+  top: 17px;
+  right: 0;
+  background: url(/images/anniversary/contact_img01.png) no-repeat;
+  background-size: contain;
+  width: 224px;
+  height: 99px;
+}
+main .contact .inner::after{
+  content: "";
+  position: absolute;
+  left: 23px;
+  bottom: 23px;
+  background: url(/images/anniversary/contact_img02.png) no-repeat;
+  background-size: contain;
+  width: 107px;
+  height: 127px;
+}
+main .contact h2{
+  max-width: 478px;
+  margin: auto;
+}
+main .contact ul{
+  display: flex;
+  justify-content: center;
+  margin: 33px 0 0;
+}
+main .contact ul li.tel{
+  max-width: 325px;
+  margin-right: 36px;
+}
+main .contact ul li.tel a{
+  pointer-events: none;
+  cursor: default;
+}
+main .contact ul li.tel p{
+  max-width: 298px;
+  margin: 9px auto 0;
+}
+main .contact ul li.tel p img{
+  vertical-align: top;
+}
+main .contact ul li.mail{
+  max-width: 326px;
+}
+main .contact ul li.mail a:hover{
+  opacity: .7;
+}
+
+
+/* footer
+=====================================*/
+main .copy{
+  padding: 0 0 80px;
+  text-align: center;
+}
+main .copy small{
+  font-family: 'Inconsolata', monospace;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+}
+#pageTop{
+  position: fixed;
+  right: 38px;
+  bottom: 45px;
+  z-index: 200;
+}
+#pageTop a{
+  display: block;
+  width: 66px;
+  height: 61px;
+}
+#pageTop a:hover{
+  opacity: .7;
+}

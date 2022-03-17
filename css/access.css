@@ -1,0 +1,232 @@
+
+/* main_img_detail
+===============================================================*/
+
+/* anchor
+===============================================================*/
+.anchor {
+	width: 90%;
+	margin:50px auto 100px auto;
+}
+
+.anchor_pt {
+	padding:50px 0 0 0;
+}
+
+
+.anchor li {
+	width:25%;
+	float:left;
+	min-width: 300px;
+}
+
+.anchor li a {
+	display:block;
+	font-size:18px;
+	color:#786e51;
+	padding:20px 18px 20px 18px;
+	margin:5px;
+	text-align:center;
+	text-decoration:none;
+	background-color:#eceae5;
+	transition: all 300ms 0s ease;
+}
+
+.anchor li a span {
+	padding:0 20px 0 0;
+	background:url(../images/restaurant/dohman/ar01.jpg) no-repeat right 50%;
+}
+
+.anchor li a:hover {
+	opacity:0.7;
+}
+
+/* access 
+===============================================================*/
+.alink,
+.main_box{
+	position: relative;
+}
+.acc_p01{
+	text-align: center;
+}
+.acc_p{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.link{
+	display:inline-block;
+	margin:2px 0 10px 0;
+	padding: 0 14px 0 0;
+    text-decoration: underline;
+    background: url(../images/common/ar02.svg) no-repeat right 58%;
+    background-size: 7px auto;
+}
+
+.link span {
+	display:inline-block;
+	padding:0 0 0 18px;
+    background: url(../images/info/access/pin.png) no-repeat left 50%;
+    background-size: 13px 19px;
+	text-decoration: underline;
+}
+
+.cen{
+	text-align: center;
+}
+.acc_cen{
+	margin-bottom: 90px;
+}
+
+.acc_cen02 {
+	margin-bottom: 40px;
+}
+
+.acc_bg{
+	background: url(../images/common/bgline.jpg) repeat 0 0;
+	padding:30px 40px;
+	margin: 0 15px 0 15px;
+}
+
+.acc_bg02{
+	background: url(../images/common/bgline.jpg) repeat 0 0;
+	padding:15px 50px;
+    display:inline-block;
+}
+.acc_box{
+	vertical-align: top;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	
+}
+.acc_box h3{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 18px;
+}
+.acc_box .box02 h4.t_int,
+.acc_box .box02 ul li,
+.acc_box .box02 p{
+	padding-left:16px;
+}
+.acc_bg03{
+	width: 100%;
+	max-width: 380px;
+}
+.acc_bg04{
+	width: 100%;
+	max-width: 420px;
+}
+.acc_bg05 {
+	padding:0;
+}
+.acc_bg05 img {
+	width: 100%;
+}
+
+
+h3.bg_tit {
+	text-align:center;
+	padding:0 0 15px 0;
+	font-size:18px;
+	font-weight:normal;
+}
+
+.acc_box .box02 li.t_int02{
+	padding-left: 39px;
+}
+
+.clbn {
+	width:100%;
+	max-width:800px;
+	margin:0 auto 40px auto;
+	position: relative;
+	top:-40px;
+	left:0;	
+}
+.planbtn {
+	max-width:810px;
+}
+
+.clbn a {
+	display:block;
+	transition: all 300ms 0s ease;
+}
+
+.clbn a:hover {
+	opacity:0.8;
+}
+
+.clbn img {
+	width:100%;	
+}
+
+.info_box{
+	width: 566px;
+	margin-left: 17px;
+}
+.ph01{
+	margin-left:110px;
+}
+.main_ph img,
+.ph01 img{
+	width: 100%;
+	height: auto;
+}
+.alin{
+	align-items: center;
+}
+.info_box h4.g{
+	font-size: 20px;
+	color: #786e51;
+}
+.acc_bg p.t_int3{
+	padding-left: 23px;
+}
+.b{
+	font-weight: bold;
+}
+.info_box ul.l_s{
+	margin-bottom: 15px;
+}
+.info_box .mb{
+	margin-bottom: 5px;
+}
+.con_bg{
+	background: url(../images/info/access/g_line.png) no-repeat center 0;
+	text-indent: -9999px;
+	background-size: 50vw auto;
+	padding-bottom: 10px;
+}
+.acc_box .box02 p.t_int05{
+	padding-left: 23px;
+}
+.kome{
+	margin-left: 1rem;
+	text-indent: -1rem;
+}
+
+
+
+/* ADD 2019.05
+=================================================== */
+.shuttlebus{
+    width: auto;
+    max-width: 848px;
+	margin: -40px auto 90px;
+    border: #000000 1px solid;
+    padding: 30px;
+}
+.shuttlebus h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.shuttlebus p.news_link {
+    text-align: center;
+    margin-top: 18px;
+}

@@ -1,0 +1,74 @@
+
+/* layout
+===============================================================*/
+body,form,fieldset {
+	margin: 0;
+	padding:0;
+    -webkit-text-size-adjust: none;
+}
+
+fieldset {
+	border:none;
+}
+
+h1,h2,h3,h4,h5,h6,p,pre,blockquote,ul,ol,dl,dd,tr {
+	margin: 0;
+	padding:0;
+}
+
+blockquote,li,dt,dd {
+	margin:0;
+	padding:0;	
+}
+
+li {
+	list-style:none;
+}
+
+input,textarea {
+	font-size:1em;
+}
+
+img {
+	margin:0px;
+	padding:0px;
+	border: 0px;
+	vertical-align:bottom;
+}
+
+table {
+    border-collapse:collapse;
+}
+
+/* float, clear
+===============================================================*/
+.cf { zoom:1; }
+.cf:before, .cf:after { content:""; display:table; }
+.cf:after { clear:both; }
+
+.clear {
+	clear: both;
+	visibility: visible;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+
+@media print{ 
+
+body{
+	_zoom: 70%;
+	background: none;
+}
+
+img.hover {
+	display:none;
+}
+	
+}

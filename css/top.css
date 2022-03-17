@@ -1,0 +1,1001 @@
+/* common
+===============================================================*/
+div#HeaderBox .logo a {
+	display: block;
+	width: 268px;
+	height: 37px;
+	/* background: url(../images/common/logo_white.png) no-repeat 0 0; */
+	background: url(../images/common/logo.png) no-repeat 0 0;
+	background-size: contain;
+	transition: 0.3s;
+}
+div#HeaderBox .logo a img {
+	display: none;
+}
+div#HeaderBox .blacklogo a {
+	background: url(../images/common/logo.png) no-repeat 0 0;
+	background-size: contain;
+}
+
+/* div#HeaderBox .nav ul li a {
+	color: #ffffff;
+	transition: 0.3s;
+} */
+
+
+/* main_img
+===============================================================*/
+
+
+.main_img {
+	position:relative;
+	overflow:hidden;
+}
+
+.main_img .imp a {
+	display: block;
+	position: absolute;
+	bottom:0;left:0;
+	width:100%;
+	background-color: #fae0e0;
+	color:#a20000;
+	font-weight:bold;
+	z-index: 200;
+	padding:8px 80px;
+}
+
+.main_img .imp a:hover {
+	text-decoration:underline;
+}
+
+
+
+.main_img .bg01 {
+	width:100%;
+	background:url(../images/top/main01.jpg) no-repeat left top;
+	background-size:cover;
+}
+
+.main_img .bg01 span {
+	display:block;
+	font-weight:bold;
+	line-height:1.5;
+	padding:260px 0 0 45%;
+	font-size:36px;
+	letter-spacing:0.05em;
+	color:#fff;
+	letter-spacing:0.1em;
+	text-shadow:-2px 0px 11px #9dd4fd;
+}
+
+.main_img .bg00 {
+	background:url(../images/top/main0101.jpg) no-repeat center top;
+	background-size:cover;
+}
+
+.main_img .bg00 a {
+	display: block;
+	width:100%;
+	height:100%;
+	background:url(../images/top/co01.jpg) no-repeat center 50%;
+}
+
+.main_img .bg02 {
+	background:url(../images/top/main02.jpg) no-repeat center top;
+	background-size:cover;
+}
+
+.main_img .bg03 {
+	background:url(../images/top/main03.jpg) no-repeat center top;
+	background-size:cover;
+	background-position:right top;
+}
+
+.main_img .bg04 {
+	background:url(../images/top/main04.jpg) no-repeat center top;
+	background-size:cover;
+}
+
+.main_img .bg05 {
+	background:url(../images/top/main05.jpg) no-repeat center top;
+	background-size:cover;
+}
+
+.main_img .bg06 {
+	background:url(../images/top/main06.jpg) no-repeat center top;
+	background-size:cover;
+}
+
+.main_img .bg06 a {
+	display: block;
+	width:100%;
+	height:100%;
+	background:url(../images/top/co02.png) no-repeat center 50%;
+}
+
+.main_img .bg07 {
+	background:url(../images/top/main07.jpg) no-repeat center top;
+	background-size:cover;
+}
+
+.main_img .bg07 a {
+	display: block;
+	width:100%;
+	height:100%;
+	background:url(../images/top/co03.png) no-repeat center 50%;
+}
+
+.main_img .bg08 {
+	background:url(../images/top/main08.jpg?20220315) no-repeat center top;
+	background-size:cover;
+}
+
+.main_img .bg08 a {
+	display: block;
+	width:100%;
+	height:100%;
+/*	background:url(../images/top/co04.png) no-repeat right 20px bottom 61px;*/
+	background:url(../images/top/co04a.png) no-repeat center 50%;
+}
+
+.main_img .bg09 {
+	background:url(../images/top/main09.jpg) no-repeat center top;
+	background-size:cover;
+	position: relative;
+}
+
+.main_img .bg09 span {
+	display: block;
+	width: 201px;
+	height: 413px;
+	text-indent: -9999px;
+	background:url(../images/top/osechi.png) no-repeat 0 0;
+	position: absolute;
+	right: 82px;
+	top: 101px;
+}
+
+.main_img .bg09 a {
+	display: block;
+	width:100%;
+	height:100%;
+	background:url(../images/top/co05.png) no-repeat left 89px bottom 113px;
+}
+
+.main_img .bg10 {
+	background:url(../images/top/main12.jpg) no-repeat center top;
+	background-size:cover;
+}
+
+.main_img .bg10 a {
+	display: block;
+	width:100%;
+	height:100%;
+	/*background:url(../images/top/co06.png) no-repeat center 50%;*/
+	background:url(../images/top/co08.png) no-repeat center 50%;
+}
+
+.main_img .bg11 {
+	background:url(../images/top/main11.jpg?20220310) no-repeat center center;
+	background-size:cover;
+}
+
+.main_img .bg11 a {
+	display: block;
+	width:100%;
+	height:100%;
+	background:url(../images/top/co07.png) no-repeat center 50%;
+}
+
+.main_img .flex-control-nav {
+	bottom: 5px;
+	text-align: left;
+	padding:0 0 0 20px;
+	box-sizing:border-box;
+}
+
+.main_img .flex-control-paging li a {
+    width: 6px;
+    height: 6px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.main_img .flex-control-paging li a {
+	background-color: rgba(255, 255, 255, 1);
+	border:#fff 2px solid;
+	box-shadow:none;
+}
+
+.main_img .flex-control-paging li a.flex-active ,
+.main_img .flex-control-paging li a:hover {
+	background:none;
+}
+
+.main_img .noteimg {
+	padding:100px 20px 0 20px;
+	text-align: center;
+}
+
+.main_img .noteimg img {
+	max-width:100%;
+}
+
+.main_img .notebox {
+	padding:0 50px 70px;
+}
+
+.main_img .notebox p {
+	padding:0 0 15px 0;
+}
+
+.main_img .notebox ul {
+	padding:0 0 15px 0;
+}
+
+.main_img .notebox ul li {
+	text-indent: -1em;
+	margin:0 0 0 1em;
+}
+
+.main_img .notebox .red {
+	border:#cc0000 3px solid;
+	padding:20px;
+	margin:10px 0 0 0;
+}
+
+.main_img .notebox .red p ,
+.main_img .notebox .red li {
+	color:#cc0000;
+}
+
+
+
+/* camp
+===============================================================*/
+.camp {
+	max-width:1000px;
+	padding:0 30px;
+	margin:0 auto 50px auto;
+}
+
+.camp_top {
+	margin:0 auto 25px auto;
+}
+
+.camp a {
+	display:block;
+	transition: all 300ms 0s ease;
+}
+
+.camp a:hover {
+	opacity:0.7;
+}
+
+.camp img {
+	width:100%;
+}
+
+
+/* tab
+===============================================================*/
+.tab {
+	width:100%;
+	position:absolute;
+	top:-68px;
+	left:0;
+}
+
+.tab .tabin {
+	width:520px;
+	margin:0 auto;
+}
+
+.tab .tabin .b1 {
+	width:260px;
+	margin:0 auto;
+}
+
+.tab .tabin .b1 a {
+	display:block;
+	width:260px;
+	height:70px;
+	font-size:22px;
+	padding:17px 0 0 0;
+	text-align:center;
+	text-decoration:none;
+	background:url(../images/top/b01.jpg) no-repeat 0 0;
+	position:relative;
+}
+
+.tab .tabin .b1 a img {
+	position:absolute;
+	top:0;left:0;
+	opacity:0;
+	transition: all 300ms 0s ease;
+}
+
+.tab .tabin .b1 a span {
+	padding:0 0 0 26px;
+	background:url(../images/common/room.svg) no-repeat 0 8px;
+	background-size:18px 17px;
+	position:relative;
+	z-index:2;
+}
+
+.tab .tabin .b1 a:hover img ,
+.tab .tabin .b1 a.here img {
+	opacity:1;
+}
+
+.tab .tabin .b1 a .ar  {
+	display:none;
+}
+
+.tab .tabin .b1 a:hover span ,
+.tab .tabin .b1 a.here span {
+	color:#927d44;
+	background:url(../images/common/room2.svg) no-repeat 0 8px;
+	background-size:18px 17px;
+}
+
+.tab .tabin .b2 {
+	width:260px;
+	float:right;
+}
+
+.tab .tabin .b2 a {
+	display:block;
+	width:260px;
+	height:70px;
+	font-size:22px;
+	padding:17px 0 0 0;
+	text-align:center;
+	text-decoration:none;
+	background:url(../images/top/b02.jpg) no-repeat 0 0;
+	position:relative;
+}
+
+.tab .tabin .b2 a img {
+	position:absolute;
+	top:0;left:0;
+	opacity:0;
+	transition: all 300ms 0s ease;
+}
+
+.tab .tabin .b2 a span {
+	padding:0 0 0 25px;
+	background:url(../images/common/res.svg) no-repeat 0 4px;
+	background-size:12px 21px;
+	position:relative;
+	z-index:2;
+}
+
+.tab .tabin .b2 a:hover img ,
+.tab .tabin .b2 a.here img {
+	opacity:1;
+}
+
+.tab .tabin .b2 a:hover span ,
+.tab .tabin .b2 a.here span {
+	color:#927d44;
+	background:url(../images/common/res2.svg) no-repeat 0 4px;
+	background-size:12px 21px;
+}
+
+.tab .tabin .b2 a .ar  {
+	display:none;
+}
+
+
+
+/* form
+===============================================================*/
+.form_wrap {
+	padding:100px 50px 37px 140px;
+}
+
+.formcon02 {
+	display:none;
+}
+
+
+/* newsbox
+===============================================================*/
+.newsbox {
+	height:52px;
+	box-sizing:border-box;
+	padding:15px 0 15px 230px;
+	background-color:#fff;
+	position:relative;
+	overflow:hidden;
+}
+
+.newsbox .t1 {
+	width:110px;
+	margin:0 20px 0 0;
+	color:#786e51;
+	line-height:1.3;
+	border-right:#b5a371 1px solid;
+	float:left;
+	position:absolute;
+	top:15px;
+	left:90px;
+	text-align:center;
+}
+
+.newsbox .t2 {
+	line-height:1.4;
+}
+
+.newsbox .t2 a {
+	text-decoration:none;
+}
+
+.newsbox .t2 span.more {
+	color:#786e51;
+	font-suize:18px;
+	text-decoration:underline;
+}
+
+
+.newsbox .t2 a:hover span.tt {
+	text-decoration:underline;
+}
+
+
+
+/* planbox
+===============================================================*/
+.planbox .event {
+	padding:50px 0 0 0;
+}
+
+/*.planbox .event a {
+	display:block;
+	width:300px;
+	padding:20px 20px;
+	margin:0 auto;
+	text-align:center;
+	color:#786e51;
+	text-decoration:none;
+	background-color:#eceae5;
+	transition: all 300ms 0s ease;
+}
+
+
+.planbox .event a:hover {
+	opacity:0.7;
+}*/
+
+.planbox .event a{
+	display:block;
+	max-width: 810px;
+	margin: 0 auto;
+	transition: all 300ms 0s ease;
+}
+.planbox .event a img{
+	width: 100%;
+	height: auto;
+}
+.planbox .event a:hover {
+	opacity:0.7;
+}
+
+
+/* roombox
+===============================================================*/
+.roombox {
+	padding:46px 0 145px 0;
+	margin:0 0 0 -90px;
+	background: url(../images/common/bgline.jpg) repeat 0 0;
+}
+
+.roombox a {
+	display:block;
+	text-decoration:none;
+	position:relative;
+}
+
+.roombox img {
+	width:100%;
+}
+
+
+.roombox .tit {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+	position:absolute;
+	top:20px;
+	left:13%;
+}
+
+.roombox .tit p {
+    font-size:18px;
+	letter-spacing:0.1em;
+	line-height:1.4;
+}
+
+.roombox .tit h2 {
+    font-size:40px;
+	letter-spacing:0.1em;
+	position:relative;
+	top:-5px;
+	left:0;
+}
+
+.roombox .t {
+	position:absolute;
+	top:80%;
+	left:0;
+	padding:0 20px 0 40%;
+}
+
+.roombox .t .txt{
+	padding:0 0 37px 0;
+}
+
+.roombox .t .more {
+	font-size:20px;
+	color:#786e51;
+	letter-spacing:0.2em;
+	background:url(../../images/common/ar03_b.svg) no-repeat left 70px top 47%;
+	background-size:70px auto;
+	transition: all 300ms 0s ease;
+}
+
+.roombox a:hover .t .more {
+	background:url(../../images/common/ar03_b.svg) no-repeat left 90px top 47%;
+	background-size:70px auto;
+}
+
+
+/* restaurantbox
+===============================================================*/
+.restaurantbox {
+	padding:46px 0 0px 0;
+	margin:0 0 0 -90px;
+	background: url(../images/common/bgline.jpg) repeat 0 0;
+	position:relative;
+}
+
+.restaurantbox a {
+	display:block;
+	text-decoration:none;
+	position:relative;
+}
+
+.restaurantbox img {
+	width:100%;
+}
+
+
+.restaurantbox .tit {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+	position:absolute;
+	top:-30px;
+	right:6%;
+}
+
+.restaurantbox .tit p {
+    font-size:18px;
+	letter-spacing:0.1em;
+	line-height:1.4;
+}
+
+.restaurantbox .tit h2 {
+    font-size:40px;
+	letter-spacing:0.1em;
+	position:relative;
+	top:-5px;
+	left:0;
+	z-index: 10;
+}
+
+.restaurantbox .t {
+	position:absolute;
+	top:80%;
+	left:0;
+	padding:0 52% 0 20px;
+}
+
+.restaurantbox .t .txt{
+	padding:0 0 37px 0;
+}
+
+.restaurantbox .t .more {
+	font-size:20px;
+	color:#786e51;
+	letter-spacing:0.2em;
+	background:url(../../images/common/ar03_b.svg) no-repeat left 70px top 47%;
+	background-size:70px auto;
+	transition: all 300ms 0s ease;
+}
+
+.restaurantbox a:hover .t .more {
+	background:url(../../images/common/ar03_b.svg) no-repeat left 90px top 47%;
+	background-size:70px auto;
+}
+
+.restaurantbox .other_restaurant {
+	padding:50px 0 0 54px;
+	text-align:center;
+}
+
+.restaurantbox .other_restaurant ul li {
+	width:33.3%;
+	display:inline-block;
+}
+
+.restaurantbox .other_restaurant ul li a {
+	display:block;
+	background-color:#eceae5;
+	text-align:center;
+	font-size:18px;
+	color:#786e51;
+	padding:24px 0;
+	margin:0 0 0 36px;
+	transition: all 300ms 0s ease;
+}
+
+.restaurantbox .other_restaurant ul li a:hover {
+	opacity:0.7;
+}
+
+
+.restaurantbox .champs {
+	width:48%;
+	max-width:543px;
+	position:absolute;
+	top:35%;
+	right:0;
+}
+
+.restaurantbox .champs .tt {
+	position:absolute;
+	top:75%;
+	left:0;
+	width:47%;
+	padding:0 0 0 20px;
+	font-size:24px;
+	line-height:1.3;
+	background: url(../images/common/ar02.svg) no-repeat right 10px top 50%;
+    background-size: 7px auto;
+	transition: all 300ms 0s ease;
+}
+
+.restaurantbox .champs a:hover .tt {
+	background: url(../images/common/ar02.svg) no-repeat right 5px top 50%;
+    background-size: 7px auto;
+}
+
+.restaurantbox .champs .tt span {
+	font-size:16px;
+}
+
+@media screen and (max-width: 1250px) {
+
+.restaurantbox .other_restaurant {
+	padding:100px 0 0 54px;
+}
+
+}
+
+@media screen and (max-width: 1173px) {
+
+.restaurantbox .champs .tt {
+	font-size:18px;
+	top:76%;
+}
+
+.restaurantbox .champs .tt span {
+	font-size:12px;
+}
+
+}
+
+@media screen and (max-width: 915px) {
+
+.restaurantbox .champs .tt {
+	font-size:14px;
+}
+
+}
+
+
+
+
+/* partybox
+===============================================================*/
+.partybox {
+	padding:46px 0 145px 0;
+	margin:0 0 0 -90px;
+	background: url(../images/common/bgline.jpg) repeat 0 0;
+	position:relative;
+}
+
+.partybox a {
+	display:block;
+	text-decoration:none;
+	position:relative;
+}
+
+.partybox img {
+	width:100%;
+}
+
+
+.partybox .tit {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+	position:absolute;
+	top:-30px;
+	left:13%;
+}
+
+.partybox .tit p {
+    font-size:18px;
+	letter-spacing:0.1em;
+	line-height:1.4;
+}
+
+.partybox .tit h2 {
+    font-size:40px;
+	letter-spacing:0.1em;
+	position:relative;
+	top:-5px;
+	left:0;
+}
+
+.partybox .t {
+	position:absolute;
+	top:80%;
+	left:0;
+	padding:0 31% 0 38%;
+}
+
+.partybox .t .txt{
+	padding:0 0 37px 0;
+}
+
+.partybox .t .more {
+	font-size:20px;
+	color:#786e51;
+	letter-spacing:0.2em;
+	background:url(../../images/common/ar03_b.svg) no-repeat left 70px top 47%;
+	background-size:70px auto;
+	transition: all 300ms 0s ease;
+}
+
+.partybox a:hover .t .more {
+	background:url(../../images/common/ar03_b.svg) no-repeat left 90px top 47%;
+	background-size:70px auto;
+}
+
+.partybox .catering {
+	width:30%;
+	position:absolute;
+	top:68%;
+	right:0;
+}
+
+.partybox .catering img {
+	
+}
+
+.partybox .catering .tt {
+	position:absolute;
+	top:67%;
+	left:0;
+	width:50%;
+	padding:0 0 0 30px;
+	font-size:22px;
+	background: url(../images/common/ar02.svg) no-repeat right 10px top 50%;
+    background-size: 7px auto;
+	transition: all 300ms 0s ease;
+}
+
+.partybox .catering a:hover .tt {
+	background: url(../images/common/ar02.svg) no-repeat right 5px top 50%;
+    background-size: 7px auto;
+}
+
+
+@media screen and (max-width: 1173px) {
+
+.partybox .catering .tt {
+	font-size:16px;
+}
+
+}
+
+@media screen and (max-width: 915px) {
+
+.partybox .catering .tt {
+	font-size:14px;
+}
+
+}
+
+
+
+
+/* weddingbox
+===============================================================*/
+.weddingbox {
+	padding:46px 0 145px 0;
+	margin:0 0 0 -90px;
+	background: url(../images/common/bgline.jpg) repeat 0 0;
+}
+
+.weddingbox a {
+	display:block;
+	text-decoration:none;
+	position:relative;
+}
+
+.weddingbox img {
+	width:100%;
+}
+
+
+.weddingbox .tit {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+	position:absolute;
+	top:-30px;
+	right:6%;
+}
+
+.weddingbox .tit p {
+    font-size:18px;
+	letter-spacing:0.1em;
+	line-height:1.4;
+}
+
+.weddingbox .tit h2 {
+    font-size:40px;
+	letter-spacing:0.1em;
+	position:relative;
+	top:-5px;
+	left:0;
+}
+
+
+.weddingbox .t {
+	position:absolute;
+	top:80%;
+	left:0;
+	padding:0 52% 0 20px;
+}
+
+.weddingbox .t .txt{
+	padding:0 0 37px 0;
+}
+
+.weddingbox .t .more {
+	font-size:20px;
+	color:#786e51;
+	letter-spacing:0.2em;
+	background:url(../../images/common/ar03_b.svg) no-repeat left 70px top 47%;
+	background-size:70px auto;
+	transition: all 300ms 0s ease;
+}
+
+.weddingbox a:hover .t .more {
+	background:url(../../images/common/ar03_b.svg) no-repeat left 90px top 47%;
+	background-size:70px auto;
+}
+
+
+/* infobox
+===============================================================*/
+.infobox {
+	padding:46px 0 145px 0;
+	margin:0 0 0 -90px;
+	background: url(../images/common/bgline.jpg) repeat 0 0;
+}
+
+.infobox a {
+	display:block;
+	text-decoration:none;
+	position:relative;
+}
+
+.infobox img {
+	width:100%;
+}
+
+
+.infobox .tit {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+	position:absolute;
+	top:-30px;
+	left:13%;
+}
+
+.infobox .tit p {
+    font-size:18px;
+	letter-spacing:0.1em;
+	line-height:1.4;
+}
+
+.infobox .tit h2 {
+    font-size:40px;
+	letter-spacing:0.1em;
+	position:relative;
+	top:-5px;
+	left:0;
+}
+
+.infobox .t {
+	position:absolute;
+	top:87%;
+	left:0;
+	padding:0 20px 0 40%;
+}
+
+.infobox .t .txt{
+	padding:0 0 37px 0;
+}
+
+.infobox .t .more {
+	font-size:20px;
+	color:#786e51;
+	letter-spacing:0.2em;
+	background:url(../../images/common/ar03_b.svg) no-repeat left 70px top 47%;
+	background-size:70px auto;
+	transition: all 300ms 0s ease;
+}
+
+.infobox a:hover .t .more {
+	background:url(../../images/common/ar03_b.svg) no-repeat left 90px top 47%;
+	background-size:70px auto;
+}
+
+
+/* gallery
+===============================================================*/
+.gallery {
+	height:320px;
+	background: url(../images/common/bgline.jpg) repeat 0 0;
+	position:relative;
+	margin:0 0 30% -90px;
+}
+
+.gallery h2 {
+	padding:0 0 0 90px;
+}
+
+
+.gallery ul {
+	margin:0 0 20px 90px;
+}
+
+.gallery ul li {
+	width:16.6%;
+	float:left;
+	overflow:hidden;
+}
+
+.gallery ul li img {
+	width:100%;	
+	height:auto;
+	transition: all 300ms 0s ease;
+}
+
+.gallery ul li a:hover img {
+	transform: scale(1.1);
+}
+
+.gallery .morebtn {
+	padding:0 0 0 90px;
+}

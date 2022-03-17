@@ -1,0 +1,1 @@
+<option value="会議・研修プラン">会議・研修プラン</option><option value="幹事さんらくらく同窓会プラン">幹事さんらくらく同窓会プラン</option><option value="テーブルマナープラン">テーブルマナープラン</option><option value="バスランチプラン">バスランチプラン</option><option value="個室宴会場でのご法要料理">個室宴会場でのご法要料理</option>

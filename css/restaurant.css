@@ -1,0 +1,1506 @@
+
+/* main_img_detail
+===============================================================*/
+.main_img_detail .bg_concorde {
+	background:url(../images/restaurant/concorde/main01.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+.main_img_detail .bg_dohman {
+	background:url(../images/restaurant/dohman/main_02.jpg) no-repeat center 50%;
+	background-position: 0 -27px;
+	background-size:cover;
+}
+
+.main_img_detail .bg_champs {
+	background:url(../images/restaurant/champs/main01.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+.main_img_detail .bg_champs_lunch {
+	background:url(../images/restaurant/champs/main02.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+.main_img_detail .bg_champs_dinner {
+	background:url(../images/restaurant/champs/main03.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+.main_img_detail .bg_bonjour {
+	background:url(../images/restaurant/bonjour/main01.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+.main_img_detail .bg_wongfu {
+	background:url(../images/restaurant/wongfu/main01.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+p.restaurant_info{
+    background-color: #faf6e9;
+	padding: 24px 80px;
+	color: #a20000;
+}
+
+p.restaurant_info a{
+	color: #a20000;
+	text-decoration: underline;
+}
+
+p.restaurant_info span{
+    font-weight: bold;
+}
+
+/* top
+===============================================================*/
+.main_img_detail .r01 {
+	background:url(../images/restaurant/top/img01new.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+.main_img_detail .r02 {
+	background:url(../images/restaurant/top/img02new.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+.main_img_detail .r03 {
+	background:url(../images/restaurant/top/img03new.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+.main_img_detail .r04 {
+	background:url(../images/restaurant/top/img04new.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+.main_img_detail .r05 {
+	background:url(../images/restaurant/top/img05new.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+.main_img_detail .r06 {
+	background:url(../images/restaurant/top/img06new.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+.main_img_detail .r07 {
+	background:url(../images/restaurant/top/img07.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+.main_img_detail .r08 {
+	background:url(../images/restaurant/top/img08new.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+.main_img_detail .r09 {
+	background:url(../images/restaurant/top/img09.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+
+
+/* box01
+===============================================================*/
+.box01 .sb a {
+	text-decoration:none;
+}
+
+.box01 .sb .stair {
+	font-size:32px;
+	text-align:center;
+	color:#786e51;
+}
+
+.box01 .sb .stair span {
+	font-size:28px;
+}
+
+.box01 .sb .sub {
+	font-size:24px;
+	text-align:center;
+	line-height:1.2;
+}
+
+.box01 .sb .sawa.c {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.box01 .sb h4 {
+	font-size:36px;
+	text-align:center;
+	line-height:1.2;
+	padding:0 0 10px 0;
+}
+
+.box01 .sb ul.cate {
+	padding:0 0 30px 0;
+	text-align:center;
+}
+
+.box01 .sb ul.cate li {
+	display:inline-block;
+	/*border:#cb8625 1px solid;*/
+	padding:2px 8px;
+	/*color:#ce8e34;*/
+	margin:0 2px;
+	background-color:#f9f8f8;
+}
+
+.box01 .sb ul.btns {
+	width:485px;
+	margin:0 auto;
+}
+
+.box01 .sb ul.btns .morebtn {
+	width:230px;
+	float:left;
+}
+
+.box01 .sb ul.btns .morebtn2 {
+	width:230px;
+	float:none;
+	margin:0 auto;
+}
+
+.box01 .sb ul.btns .convbtn {
+	width:230px;
+	float:right;
+	padding:0;
+}
+
+.box01 .sb ul.btns .convbtn a {
+	width:230px;
+}
+
+.box01 .sb ul.btns .nolink {
+	width: 320px;
+	padding: 13px 0;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	background: #323232;
+}
+
+.box01 .sb ul.btns .morebtn3 {
+	width: 320px;
+	float: none;
+	margin: 0 auto;
+}
+.box01 .sb ul.btns .morebtn3 a {
+	width: 100%;
+	letter-spacing: normal;
+}
+
+@media screen and (max-width: 1274px) {
+.box01 .sb ul.btns {
+	width:100%;
+}
+
+.box01 .sb ul.btns .morebtn {
+	width:230px;
+	float:none;
+	margin:0 auto 15px auto;
+}
+
+.box01 .sb ul.btns .convbtn {
+	width:230px;
+	float:none;
+	margin:0 auto 15px auto;
+}
+.box01 .sb ul.btns .morebtn3 {
+	width: 100%;
+	max-width: 320px;
+}
+}
+
+
+/* s_meu_box
+===============================================================*/
+
+.s_menu_box {
+	margin:0 0 80px 0;
+	position:relative;
+}
+
+.s_menu_box h2 span.red_box{
+	font-size: 20px;
+	padding: 3px 20px 0;
+	color: #fff;
+	background: #a30a0a;
+	display: inline;
+	font-weight: 400;
+	margin-right: 7px;
+	font-family: sans-serif;
+	position: relative;
+	top: -4px;
+}
+
+.s_menu_box p.term {
+	text-align: center;
+    font-size: 30px;
+    font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+	-webkit-font-smoothing: antialiased;
+    margin-bottom: 30px;
+	color: #a30a0a;
+}
+
+.s_menu_box p.clear {
+	text-align:center;
+}
+
+.s_menu_box p span.hosoku {
+	font-size: 12px;
+	display: block;
+}
+
+.s_menu_box .box_s p span.price {
+	margin-left: 200px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #786e51;
+    font-family: serif;
+    margin-right: 7px;
+}
+
+.s_menu_box .box_s p span.price2 {margin-left: 220px;}
+
+.s_menu_box div.othermenu {
+	clear: both;
+}
+.s_menu_box div.othermenu p{
+	margin-bottom: 6px;
+}
+
+.s_menu_box div.othermenu ul{
+	background-color:#ede6d3;
+	padding: 20px 22px 20px 40px;
+	margin:0 auto;
+	display: flex;
+    flex-wrap: wrap;
+}
+.s_menu_box div.othermenu li{
+	/* width: calc(100% / 5 - 17px); */
+	/* margin-left: 17px; */
+	line-height: 28px;
+	list-style-type: disc;
+	margin-left: 60px;
+	width: 225px;
+	margin-bottom: 5px;
+}
+
+.s_menu_box h3 {
+	background: url(../images/common/bgline.jpg) repeat 0 0;
+	margin:0 0 30px 0;
+	padding:13px;
+	clear:both;
+}
+
+.s_menu_box h3 dl {
+	text-align:center;
+}
+
+.s_menu_box h3 dl dt {
+	color:#786e51;
+	font-weight:bold;
+	font-size:20px;
+	display:inline-block;
+	padding:0 30px 0 0;
+}
+
+.s_menu_box h3 dl dt span.s {
+	font-size:14px;
+}
+
+
+.s_menu_box h3 dl dd {
+	font-weight:normal;
+	display:inline-block;
+	font-size: 21px;
+}
+
+
+
+.s_menu_box .box_b {
+	width:50%;
+	float:left;
+	margin:0 0 25px 0;
+}
+.s_menu_box .s_menu_box_info {
+	clear: both;
+}
+
+.s_menu_box .box_b .in {
+	padding:0 13px;
+}
+
+.s_menu_box .box_b .ph img {
+	width:100%;
+}
+
+.s_menu_box .box_b .t {
+	padding:8px 0;
+}
+
+.s_menu_box .box_s {
+	width:33.3%;
+	float:left;
+	margin:0 0 25px 0;
+}
+
+.s_menu_box .box_s .in {
+	padding:0 13px;
+}
+
+.s_menu_box .box_s .ph img {
+	width:100%;
+}
+
+.s_menu_box .box_s .t {
+	padding:8px 0;
+	line-height:1.4;
+}
+
+.s_menu_box .box_s .t span {
+	font-size:12px;
+}
+
+
+.s_menu_box .restaurant_detail {
+	padding:38px;
+	width:100%;
+	background: url(../images/common/bgline.jpg) repeat 0 0;
+	box-sizing:border-box;
+}
+
+.s_menu_box .restaurant_detail .in {
+	padding:32px 130px;
+	background-color:#fff;
+	box-sizing:border-box;
+}
+
+.s_menu_box .restaurant_detail .in .cl {
+	width:50%;
+	float:left;
+}
+
+.s_menu_box .restaurant_detail .in .cr {
+	width:50%;
+	float:right;
+}
+
+.s_menu_box .restaurant_detail .in ul li {
+	
+}
+
+.s_menu_box .restaurant_detail .in ul li b {
+	width:30%;
+	margin:0;
+}
+
+.s_menu_box .restaurant_detail .in ul li dl ,
+.s_menu_box .restaurant_detail .in ul li .r {
+	width:70%;
+}
+
+.s_menu_box .restaurant_detail .in .note {
+	clear:both;
+	padding:10px 0 0 0;
+}
+
+@media screen and (max-width: 1330px) {
+
+.s_menu_box .restaurant_detail .in {
+	padding:32px 20px;
+}
+
+}
+
+@media screen and (max-width: 1130px) {
+
+.s_menu_box .restaurant_detail .in ul li b {
+	width:100%;
+}
+
+.s_menu_box .restaurant_detail .in ul li dl ,
+.s_menu_box .restaurant_detail .in ul li .r {
+	width:100%;
+}
+
+}
+
+@media screen and (max-width: 900px) {
+
+.s_menu_box .restaurant_detail .in .cl {
+	width:100%;
+	float:none;
+}
+
+.s_menu_box .restaurant_detail .in .cr {
+	width:100%;
+	float:none;
+}
+
+
+}
+
+
+
+/* restaurant_detail 
+===============================================================*/
+.restaurant_detail {
+	width:540px;
+	margin:0 auto;
+	padding:25px 0 0 0;
+}
+
+.restaurant_detail ul {
+	box-sizing:border-box;
+	padding:0 0 15px 0;
+}
+
+.restaurant_detail ul li {
+	padding:0 0 10px 110px;
+	clear:both;
+	position:relative;
+}
+
+.restaurant_detail ul li span {
+	display:none;
+}
+
+.restaurant_detail ul li span.s {
+	display:inline;
+	font-size:14px;
+}
+
+.restaurant_detail ul li p {
+	font-size:14px;
+	font-weight:normal;
+}
+
+.restaurant_detail ul li b {
+	display:block;
+	width:130px;
+	color:#786e51;
+	font-size:18px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+
+
+.restaurant_detail ul li strong.pt  {
+	padding:10px 0 0 0;
+}
+
+
+.restaurant_detail ul li dl dt {
+	width:36%;
+	float:left;
+}
+
+.restaurant_detail ul li dl dt span.s {
+	font-size:14px;
+	display:inline;
+}
+
+
+.restaurant_detail ul li dl.color ,
+.restaurant_detail ul li dl.color2 {
+	margin:0 0 4px 0;
+	position:relative;
+}
+
+.restaurant_detail ul li dl.color dt {
+	width:100px;
+	background-color:#ede6d3;
+	border-radius:5px;
+	padding:2px 6px;
+	box-sizing:border-box;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.restaurant_detail ul li dl.color2 dt {
+	width:150px;
+	background-color:#ede6d3;
+	border-radius:5px;
+	padding:2px 6px;
+	box-sizing:border-box;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+
+.restaurant_detail ul li dl dd {
+	width:64%;
+	float:right;
+}
+
+.restaurant_detail ul li dl dd span {
+	display:inline;
+	font-size:12px;
+}
+
+.restaurant_detail ul li dl.color dd {
+	width:auto;
+	padding:2px 0 2px 115px;
+	box-sizing:border-box;
+	float:none;
+}
+
+.restaurant_detail ul li dl.color2 dd {
+	padding:2px 0 2px 170px;
+	float:none;
+}
+
+.restaurant_detail ul li a.pdf {
+	text-decoration:underline;
+	background:url(../../images/common/pdf.svg) no-repeat right 8px top 18%;
+	background-size:14px auto;
+	padding:0 30px 0 0;
+}
+
+@media screen and (max-width: 1100px) {
+
+.restaurant_detail ul li {
+	padding:30px 0 10px 0;
+	clear:both;
+	position:relative;
+}
+
+.restaurant_detail ul li .r {
+	width:410px;
+	float:none;
+}
+
+}
+
+
+
+/* anchor
+===============================================================*/
+.anchor {
+	/* margin:0 65px 80px 65px; */
+	margin: 0 0 80px 0;
+	text-align:center;
+}
+
+.anchor_pt {
+	padding:50px 0 0 0;
+}
+
+
+.anchor li {
+	/* width:18%; */
+	display:inline-block;
+	vertical-align:top;
+	width: calc(100% /5 - 4px);
+}
+
+.anchor_pt li {
+	width:32%;
+	margin: 0 0 10px 0;
+}
+
+.anchor li a {
+	display:block;
+	font-size:18px;
+	color:#786e51;
+	padding:20px 18px 20px 18px;
+	margin:0 5px;
+	text-align:center;
+	text-decoration:none;
+	background-color:#eceae5;
+	transition: all 300ms 0s ease;
+}
+
+.anchor li a span {
+	padding:0 20px 0 0;
+	background:url(../images/restaurant/dohman/ar01.jpg) no-repeat right 50%;
+}
+
+.anchor li a:hover {
+	opacity:0.7;
+}
+
+
+
+/* message
+===============================================================*/
+.message {
+	margin:0 0 80px 0;	
+	position:relative;
+}
+
+
+
+/* menu
+===============================================================*/
+.menu {
+	margin:0 0 80px 0;
+	position: relative;
+}
+
+
+.menu .cont02 ,
+.menu .cont03 ,
+.menu .cont04 {
+	display:none;
+}
+
+.menu h3 {
+	color:#786e51;
+	font-size:20px;
+	padding:0 13px 20px 13px;
+	text-align:center;
+}
+
+
+.menu ul {
+	text-align:center;
+	padding:0 13px 30px 13px;
+}
+
+.menu ul li {
+	display:inline-block;
+}
+
+.menu ul li a {
+	display:block;
+	text-decoration:none;
+	padding:0 10px 0 16px;
+	background:url(../images/top/line.jpg) no-repeat right 50%;
+}
+
+.menu ul li.end a {
+	background:none;
+	padding:0 0 0 16px;
+}
+
+.menu ul li a span {
+	display:block;
+	width:0;
+	height:3px;
+	margin:0 auto;
+	border-bottom:#c5ac62 2px solid;
+	transition: all 300ms 0s ease;
+}
+
+.menu ul li a:hover span ,
+.menu ul li a.here span {
+	width:100%;
+}
+
+.menu .box_s:nth-child(3n+1) {
+	clear:both;
+}
+
+.menu .box_s {
+	width:33.3%;
+	float:left;
+	margin:0 0 30px 0;
+}
+
+.menu .cont_s .box_s {
+	width:25%;
+	float:left;
+	margin:0 0 30px 0;
+}
+
+
+.menu .cont .box_s a {
+	position:relative;
+	display:block;
+	margin:0 25px;
+	text-decoration:none;
+	background: url(../images/restaurant/dohman/bg1.jpg) no-repeat right bottom;
+}
+
+.menu .cont .box_s a:hover {
+	background: url(../images/restaurant/dohman/bg2.jpg) no-repeat right bottom;
+}
+
+.menu .cont.cont_s .box_s a {
+	background: url(../images/restaurant/concorde/bg01.jpg) no-repeat right bottom;
+}
+
+.menu .cont.cont_s .box_s a:hover {
+	background: url(../images/restaurant/concorde/bg02.jpg) no-repeat right bottom;
+}
+
+.menu .box_s .ph {
+	
+	padding:0 40px 0 0;
+}
+
+.menu .box_s .ph img {
+	width:100%;
+	transition: all 300ms 0s ease;
+	position:relative;
+	top:0;
+	left:0;
+}
+
+.menu .box_s a:hover .ph img {
+	position:relative;
+	top:-10px;
+	left:0;
+}
+
+.menu .box_s .t {
+	padding:12px 0;
+	font-size:18px;
+	line-height:1.4;
+}
+
+.menu .box_s .t span {
+	display:inline-block;
+	background-color:#ede6d3;
+	border-radius:5px;
+	color:#786e51;
+	font-size:14px;
+	padding:2px 5px;
+	margin:0 0 10px 0;
+}
+
+.menu .box_s .ic {
+	width:24px;
+	position:absolute;
+	bottom:15px;
+	right:15px;
+}
+
+/* modal
+===============================================================*/
+.modal {
+	display:none;
+	width:100%;
+	height:100%;
+	background: url(../images/common/bgline.jpg) repeat 0 0;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:500;
+	padding:13px;
+	box-sizing:border-box;
+}
+
+.modal .inner {
+	width:710px;
+	margin:0 auto;
+	background-color:#fff;
+	padding:55px 35px 15px 35px;
+	position:relative;
+}
+
+.modal .mbox {
+	overflow:auto;
+}
+.modal .menu_btn {
+	width:45px;
+	position:absolute;
+	top:13px;
+	right:15px;
+}
+
+.menu-trigger2 span {
+  display: inline-block;
+  transition: all .4s;
+  box-sizing:border-box;
+}
+.menu-trigger2 {
+  width:23px;
+  height:60px;
+  display: block;
+  padding:11px;
+  position: absolute;
+  top:0;
+  right:0;
+  z-index:50;
+  transition: all .4s;
+}
+.menu-trigger2 span {
+  position: absolute;
+  left: 11px;
+  width: 23px;
+  height: 2px;
+  background-color: #080808;
+}
+
+.menu-trigger2 span:nth-of-type(1) {
+  top: 22px;
+}
+.menu-trigger2 span:nth-of-type(2) {
+  top: 28px;
+}
+.menu-trigger2 span:nth-of-type(3) {
+  top: 34px;
+}
+
+.menu_btn .t3 {
+	display:block;
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+	letter-spacing:0.05em;
+	font-size:12px;
+}
+
+.modal  .menu-trigger2 span:nth-of-type(1) {
+  -webkit-transform: translateY(6px) rotate(-45deg);
+  transform: translateY(6px) rotate(-45deg);
+}
+
+.modal  .menu-trigger2 span:nth-of-type(2) {
+  opacity: 0;
+}
+.modal  .menu-trigger2 span:nth-of-type(3) {
+  -webkit-transform: translateY(-6px) rotate(45deg);
+  transform: translateY(-6px) rotate(45deg);
+}
+
+
+.modal h2 {
+	font-size:30px;
+	padding:0 0 10px 0;
+}
+
+.modal .mph {
+	margin:0 40px 40px 40px;
+	position:relative;
+}
+
+.modal .mph img {
+	width:100%;
+	height:auto;
+}
+
+.modal .mph .flex-control-nav {
+	bottom: -35px;
+	text-align: center;
+	padding:0 0 0 20px;
+	box-sizing:border-box;
+}
+
+.modal .mph .flex-control-paging li a {
+	background-color: rgba(197, 172, 98, 1);
+	border:#c5ac62 1px solid;
+	box-shadow:none;
+}
+
+.modal .mph .flex-control-paging li a.flex-active ,
+.modal .mph .flex-control-paging li a:hover {
+	background:none;
+}
+
+.modal dl {
+	position:relative;
+	padding:0 0 5px 110px;
+	min-height:28px;
+}
+
+.modal dl dt {
+	display:block;
+	color:#786e51;
+	font-size:18px;
+	font-weight:bold;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.modal dl dt span.s {
+	font-size:14px;
+}
+
+
+.modal .section_body {
+	padding:15px 0 0 0;
+}
+
+.modal .section_body p {
+	padding:0 0 15px 0;
+}
+
+.modal .section_body img.w {
+	width:100%;
+	height:auto;
+}
+
+/* champs_box
+===============================================================*/
+.champs_box {
+	padding:85px 145px;
+	margin:0 0 80px 0;
+	background-color:#f2f6f0;
+}
+
+.champs_box h3 {
+	color:#85aa3f;
+	text-align:center;
+	font-size:32px;
+	line-height:1.4;
+	margin:0 0 20px 0;
+}
+
+.champs_box h3.open {
+	background:url(../images/restaurant/champs/minus.jpg) #85aa3f no-repeat right 50%;
+	background-size:36px 22px;
+}
+
+.champs_box p.ph {
+	float:right;
+	padding:0 0 0 20px;
+}
+
+.champs_box ul {
+	background-color:#f2f6f0;
+	padding:20px;
+}
+
+.champs_box ul li {
+	margin:0 0 5px 1.3em;
+	text-indent:-1.3em;
+}
+
+.champs_box .box2 {
+	padding:20px 0 0 0;
+}
+
+.champs_box .box2 img {
+	width:100%;
+	height:auto;
+	transition: all 300ms 0s ease;
+}
+
+.champs_box .box2 a:hover img {
+	opacity:0.7;
+}
+
+.champs_box .box2 .txt {
+	display:none;
+}
+
+
+/* vikingbox
+===============================================================*/
+.vikingbox {
+	margin:0 0 80px 0;
+	background:url(../images/restaurant/top/bg03.jpg) no-repeat left bottom;
+}
+
+.vikingbox .vbox {
+	padding:150px 40px 80px 40%;
+	position:relative;
+	
+}
+
+.vikingbox .vbox_in {
+	background:#fff;
+	position:relative;
+	/*top:0;*/
+	top:58px;
+	left:0;
+	z-index:100;
+	padding:15px 30px 30px 30px;
+}
+
+.vikingbox .ph {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.vikingbox .ph img {
+	width:100%;
+	height:auto;
+}
+
+.vikingbox .txt {
+	padding:18px 0 0 0;
+}
+
+.vikingbox .vbox_l {
+	padding:150px 40% 80px 40px;	
+	background:url(../images/restaurant/top/bg04.jpg) no-repeat right bottom;
+}
+
+.vikingbox .ph_r{
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+.vikingbox .restaurant_detail {
+    width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+
+.vikingbox .restaurant_detail ul li b {
+	float:none;
+}
+
+.vikingbox .restaurant_detail ul li strong {
+	width:410px;
+	float:none;
+}
+
+.vikingbox .restaurant_detail ul li dl {
+	width:100%;
+	float:none;
+}
+
+
+}
+
+
+/* morebox
+===============================================================*/
+.morebox {
+	clear:both;
+	margin:0 13px 50px 13px;
+}
+
+.morebox h3 {
+	width:300px;
+	background:none;
+	background:url(../sp/images/restaurant/champs/plus2.jpg) #eceae5 no-repeat right 50%;
+	background-size:35px 22px;
+	text-align:center;
+	cursor:pointer;
+	margin:0 auto;
+}
+
+.morebox h3.open {
+	background:none;
+	background:url(../sp/images/restaurant/champs/minus2.jpg) #eceae5 no-repeat right 50%;
+	background-size:35px 22px;
+}
+
+.morebox .cont {
+	display:none;
+	padding:15px 0;
+}
+
+.morebox .m {
+	padding:0 0 15px 10px;
+}
+
+.morebox .pr {
+	padding:0 0 0 15px;
+}
+
+.morebox p.t.sawa {
+	font-size:20px;
+	padding:0 0 5px 0;
+	margin:0 0 0 -15px;
+	font-weight:bold;
+	position:relative;
+}
+
+.morebox p.t.sawa span.incon {
+	font-size:22px;
+	color:#786e51;
+	font-weight:normal;
+	letter-spacing:0.1em;
+	-webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+	position:absolute;
+	top:6px;
+	left:-40px;
+}
+
+.morebox p.t.sawa span.s {
+	font-size:16px;
+}
+
+.morebox p.t {
+	padding:0 0 10px 0;
+}
+
+.morebox p.int {
+	margin:0 0 0 1em;
+	text-indent:-1em;
+}
+
+.morebox dl {
+	position:relative;	
+	padding:0 0 5px 0;
+}
+
+.morebox dl:before {
+	content:'';
+	width:100%;
+	position:absolute;
+	top:10px;
+	left:0;
+	border-top:#ededed 1px solid;
+}
+
+.morebox dl dt {
+	float:left;
+	line-height:1.4;
+	background-color:#FFF;
+	position:relative;
+	z-index:20;
+	padding:0 5px 0 0;
+}
+
+.morebox dl dt span {
+	font-size:12px;
+}
+
+.morebox dl dd {
+	float:right;
+	text-align:right;
+	background-color:#FFF;
+	position:relative;
+	z-index:20;
+	padding:0 0 0 5px;
+}
+
+.morebox p.fl {
+	width:40%;
+	float:left;
+	line-height:1.9;
+}
+
+.morebox p.fr {
+	width:50%;
+	float:right;
+	line-height:1.9;
+}
+
+.morebox p.cl {
+	clear:both;
+	padding:15px 0 0 0;
+}
+
+
+
+/* viking_link 
+===============================================================*/
+.viking_link {
+	margin:0 0 20px 0;
+	text-align:center;
+}
+
+.viking_link .box {
+	display:inline-block;
+	width:279px;
+	margin:0 8px 40px 8px;	
+}
+
+.viking_link .box a {
+	display:block;
+	width:279px;
+	position:relative;
+	text-decoration:none;
+	background:url(../images/restaurant/concorde/bg01.jpg) no-repeat 38px 56px;
+}
+
+.viking_link .box a:hover ,
+.viking_link .box.here a {
+	background:url(../images/restaurant/champs/bg03.jpg) no-repeat 38px 56px;
+}
+
+.viking_link a .ph {
+	width:279px;
+	margin:0 0 10px 0;
+	transition: all 300ms 0s ease;
+	position:relative;
+	top:0;
+	left:0;
+}
+
+.viking_link a:hover .ph {
+	position:relative;
+	top:-5px;
+	left:0;
+}
+
+.viking_link a .s {
+	font-size:14px;
+	line-height:1.4;
+	padding:0 30px;
+}
+
+.viking_link a .ss {
+	font-size:12px;
+}
+
+
+.viking_link a .t {
+	padding:0 30px 10px 30px;
+}
+
+
+/* bon01
+===============================================================*/
+.box01.box01_r.bon01 {
+	padding:0;
+	background: url(../images/restaurant/bonjour/bg01.jpg) no-repeat right 0 bottom 190px;
+}
+
+.bon01 .sb {
+    bottom: 580px;
+}
+
+.bon01 .morebox {
+	width:500px;
+	box-sizing:border-box;
+	float:right;
+	background-color:#fff;
+	padding:30px 30px 30px 70px;
+	margin:50px 0 0 0;
+	position:relative;
+}
+
+.bon01 .morebox h3 {
+    display:none;
+}
+
+.bon01 .morebox .cont {
+    display:block;
+}
+
+.bon01 .subphoto {
+    position:absolute;
+	bottom:0;
+	left:0;
+}
+
+
+/* bon02
+===============================================================*/
+.box01.box01_l.bon02 {
+	padding:0;
+	background: url(../images/restaurant/bonjour/bg01.jpg) no-repeat right 0px bottom 205px;
+}
+
+.bon02 .sb {
+    bottom: 580px;
+}
+
+.bon02 .morebox {
+	width:540px;
+	box-sizing:border-box;
+	float:left;
+	background-color:#fff;
+	padding:30px 30px 30px 70px;
+	margin:50px 0 0 0;
+	position:relative;
+}
+
+.bon02 .morebox h3 {
+    display:none;
+}
+
+.bon02 .morebox .cont {
+    display:block;
+}
+
+.bon02 .subphoto {
+    position:absolute;
+	bottom:0;
+	right:42px;
+}
+
+/* restaurant_box01
+===============================================================*/
+.restaurant_box01 {
+	padding:0 0 258px 0;
+	margin-bottom: 20px;
+}
+
+
+/* chef
+===============================================================*/
+section.chef {
+	background: url(../images/common/bgline.jpg) repeat 0 0;
+	margin-bottom: 100px;
+}
+
+section.chef .chef_box {
+	display: flex;
+	max-width: 835px;
+	margin: 0px auto;
+	padding: 45px 30px;
+}
+
+section.chef .chef_box p img {
+	margin-right: 40px;
+}
+
+section.chef .chef_box h3 {
+	font-size: 20px;
+	margin: 23px 0 20px;
+	font-weight: bold;
+	border-bottom: solid 2px #c5ac62;
+}
+
+
+/* attention
+===============================================================*/
+.attention {
+    margin: 0 0 75px 0;
+    padding: 0 37px;
+}
+
+.attention ul {
+	width: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 1em;
+    box-sizing: border-box;
+}
+.attention ul li {
+    list-style-type: disc;
+	margin-bottom:1em;
+}
+.attention ul li span.kome {
+    display: block;
+    margin-left: 1em;
+    text-indent: -1em;
+    font-size: 14px;
+}
+
+/* planbox
+===============================================================*/
+.planbox .event {
+	padding:0px 0 0 0;
+}
+
+/*.planbox .event a {
+	display:block;
+	width:300px;
+	padding:20px 20px;
+	margin:0 auto;
+	text-align:center;
+	color:#786e51;
+	text-decoration:none;
+	background-color:#eceae5;
+	transition: all 300ms 0s ease;
+}
+
+
+.planbox .event a:hover {
+	opacity:0.7;
+}*/
+
+.planbox .event a{
+	display:block;
+	max-width: 810px;
+	margin: 0 auto;
+	transition: all 300ms 0s ease;
+}
+.planbox .event a img{
+	width: 100%;
+	height: auto;
+}
+.planbox .event a:hover {
+	opacity:0.7;
+}
+
+
+/* breakfast
+===============================================================*/
+
+.breakfast {
+	margin: -20px 0 80px 0;
+}
+
+.breakfast .morebtn a {
+	width: 320px;
+	letter-spacing: normal;
+}
+
+
+/* haccp_link
+===============================================================*/
+.haccp_link {
+	background: url(../images/common/bgline.jpg) repeat 0 0;
+	margin-bottom: 100px;
+}
+
+.haccp_link .haccp_box {
+	display: flex;
+	max-width: 835px;
+	margin: 0px auto;
+	padding: 45px 30px;
+}
+
+.haccp_box p img {
+	margin-right: 40px;
+}
+
+.haccp_box dl dt {
+	font-size: 20px;
+	margin: 15px 0 20px;
+	font-weight: bold;
+}
+
+.more2 a {
+    display: block;
+    width: 170px;
+    padding: 13px 0;
+    text-decoration: none;
+    background: url(../../images/common/ar05.svg) no-repeat right 30px top 47%;
+    background-size: 20px auto;
+    transition: all 300ms 0s ease;
+}
+
+.more2 a:hover {
+    opacity: 0.7;
+    background: url(../../images/common/ar05.svg) no-repeat right 20px top 47%;
+    background-size: 20px auto;
+}
+
+
+/* ADD 2021.11 Bistro Concorde
+========================================== */
+.restaurant_detail ul.con_detail li {
+	padding-left: 146px;
+}
+.restaurant_detail ul.con_detail li a.tel {
+	pointer-events: none;
+}
+.restaurant_detail ul.con_detail li span.kome {
+	text-indent: -14px;
+    padding-left: 14px;
+    display: inline-block;
+}
+@media screen and (max-width: 1100px) {
+	.restaurant_detail ul.con_detail li {
+		padding-left: 0;
+	}
+}
+
+.s_menu_box .box_s p.t span.conl {
+	margin-left: 0;
+	display: block;
+	text-align: right;
+}
+.s_menu_box .box_s p.t span.conl small {
+	font-size: 12px;
+	color: #323232;
+	font-family: "游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
+	font-weight: normal;
+}
+
+.box01 .sb ul.btns .morebtn3.mb20 {
+	margin-bottom: 20px;
+}
+
+.content_inner.mt80 {
+	padding: 80px 0 0 90px;
+}

@@ -1,0 +1,136 @@
+
+/* s_meu_box
+===============================================================*/
+.s_menu_box {
+	margin:0 0 80px 0;
+}
+
+.s_menu_box h3 {
+	background: url(../images/common/bgline.jpg) repeat 0 0;
+	margin:0 0 30px 0;
+	padding:13px;
+	clear:both;
+}
+
+.s_menu_box h3 dl {
+	text-align:center;
+}
+
+.s_menu_box h3 dl dt {
+	color:#786e51;
+	font-weight:bold;
+	font-size:20px;
+	display:inline-block;
+	padding:0 30px 0 0;
+}
+
+.s_menu_box h3 dl dd {
+	font-weight:normal;
+	display:inline-block;
+}
+
+
+.s_menu_box .box_s {
+	width:33.3%;
+	float:left;
+	margin:0 0 25px 0;
+	position:relative;
+}
+
+.s_menu_box .box_s:nth-child(3n+1) {
+	clear:both;
+}
+
+.s_menu_box .box_s .in {
+	padding:0 13px;
+	position:relative;
+}
+
+.s_menu_box .box_s .ph {
+	overflow:hidden;
+}
+
+.s_menu_box .box_s .ph img {
+	width:100%;
+	transition: all 300ms 0s ease;
+}
+
+.s_menu_box .box_s a {
+	text-decoration:none;
+}
+
+
+.s_menu_box .box_s a:hover .ph img {
+	transform: scale(1.1);
+}
+
+
+.s_menu_box .box_s .t {
+	padding:8px 20px 8px 0;
+	line-height:1.4;
+}
+
+.s_menu_box .box_s .t span {
+	font-size:12px;
+}
+
+.s_menu_box .box_s .share {
+	color:#786e51;
+	position:absolute;
+	bottom:5px;right:13px;
+}
+
+
+.s_menu_box .box_s .in .sns{
+	display:none;
+	width:100%;
+	position:absolute;
+	bottom:2px;
+	left:0;
+	text-align:center;
+	background-color:#fff;
+}
+
+.s_menu_box .box_s .in .sns p {
+	display:inline-block;
+	margin:0 4px;
+}
+
+.s_menu_box .box_s .in .sns p img {
+	width:auto;
+	height:25px;
+}
+
+.s_menu_box .box_s .in .sns p.close {
+	width:30px;
+	height:29px;
+	position:absolute;
+	top:3px;
+	right:10px;
+	z-index:100;
+}
+
+.s_menu_box .box_s .in .sns span {
+  display: inline-block;
+  transition: all .4s;
+  box-sizing:border-box;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 2px;
+  width:30px;
+  background-color: #080808;	
+}
+
+
+.s_menu_box .box_s .in .sns span.s1 {
+  top:5px;
+  -webkit-transform: translateY(5px) rotate(-45deg);
+  transform: translateY(5px) rotate(-45deg);
+}
+
+.s_menu_box .box_s .in .sns span.s2 {
+  top:16px;
+-webkit-transform: translateY(-6px) rotate(45deg);
+  transform: translateY(-6px) rotate(45deg);
+}

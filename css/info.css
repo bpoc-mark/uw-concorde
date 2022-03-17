@@ -1,0 +1,213 @@
+
+
+/* rec_cate
+===============================================================*/
+.rec_cate {
+	margin:0 0 40px 0;	
+}
+
+
+.rec_cate ul {
+	text-align:center;
+}
+
+.rec_cate ul li {
+	display:inline-block;
+}
+
+.rec_cate ul li a {
+	display:block;
+	text-decoration:none;
+	padding:0 20px 0 16px;
+	background:url(../images/top/line.jpg) no-repeat right 50%;
+}
+
+.rec_cate ul li.end a {
+	background:none;
+	padding:0 0 0 16px;
+}
+
+.rec_cate ul li a span {
+	display:block;
+	width:0;
+	height:3px;
+	margin:0 auto;
+	border-bottom:#c5ac62 2px solid;
+	transition: all 300ms 0s ease;
+}
+
+.rec_cate ul li a:hover span ,
+.rec_cate ul li a.here span {
+	width:100%;
+}
+
+
+/* pager
+===============================================================*/
+.pager {
+	margin:0 0 68px 0;
+}
+
+.pager ul {
+	text-align:center;
+}
+
+.pager ul li {
+	display:inline-block;
+}
+
+.pager ul li a {
+	display:inline-block;
+	color:#fff;
+	font-weight:bold;
+	font-size:16px;
+	text-align:center;
+	padding:8px 18px;
+	margin:0 5px;
+	background-color:#a3956d;
+	border:#a3956d 1px solid;
+	text-decoration:none;
+	font-family: 'Inconsolata', monospace;
+	transition: all 300ms 0s ease;
+}
+
+.pager ul li a:hover,
+.pager ul li span {
+	display:inline-block;
+	color:#786e51;
+	font-weight:bold;
+	font-size:20px;
+	text-align:center;
+	padding:8px 18px;
+	margin:0 5px;
+	background-color:#ffffff;
+	border:#786e51 1px solid;	
+	font-family: 'Inconsolata', monospace;
+}
+
+.pager ul li a.ja {
+	font-weight:normal;
+	font-family:"Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, Verdana, "ＭＳ Ｐゴシック", "MS P Gothic", san-serif;
+}
+
+
+
+/* wedd_btn
+===============================================================*/
+.wedd_btn {
+	width:700px;
+	margin:0 auto;
+}
+
+.wedd_btn a {
+	display:block;
+	padding:61px 23px;
+	color:#786e51;
+	font-size:24px;
+	border:#eceae5 9px solid;
+	text-decoration:none;
+	background:url(../images/info/bg01.jpg) no-repeat right top;
+	transition: all 300ms 0s ease;
+}
+
+.wedd_btn a:hover {
+	border:#786e51 9px solid;
+}
+
+
+/* info_detail
+===============================================================*/
+.info_detail {
+	width:100%;
+	max-width:800px;
+	margin:0 auto;
+}
+
+.info_detail .main {
+	margin:0 0 23px 0;
+}
+
+.info_detail .main img {
+	width:100%;
+}
+
+.info_detail .tit {
+	padding:0 0 10px 0;
+	margin:0 0 15px 0;
+	border-bottom:#786e51 1px solid;
+}
+
+.info_detail h1 {
+	font-size:20px;
+	line-height:1.4;
+	font-weight:normal;
+	padding:0 0 5px 0;
+}
+
+.info_detail .tit .date {
+	font-size:14px;
+	position:relative;
+	top:-3px;
+	left:0;
+}
+
+.info_detail .tit .cate {
+	display:inline-block;
+	background-color:#ede6d3;
+	border-radius:4px;
+	color:#786e51;
+	font-size:14px;
+	padding:2px 5px;
+}
+
+.info_detail .section_detail {
+	margin:0 0 50px 0;
+}
+
+.info_detail .section_detail p {
+	margin:0 0 15px 0;
+}
+
+
+/* news_box
+===============================================================*/
+.news_box {
+	margin:0 0 80px 0;
+	padding:40px;
+	background: url(../images/common/bgline.jpg) repeat 0 0;
+}
+
+.news_box .news_inner {
+	padding:50px 10%;
+	background-color:#fff;
+}
+
+.news_box .news_inner .box {
+	margin:0 0 20px 0;
+}
+
+.news_box .news_inner .box .date {
+	color:#786e51;
+	font-weight:bold;
+	float:left;
+	width:10%;
+	font-size:18px;
+	position:relative;
+	top:-3px;
+	left:0;
+}
+
+.news_box .news_inner .box .tl {
+	width:88%;
+	float:right;
+}
+
+.news_box .news_inner .box a:hover .tl {
+	text-decoration:underline;
+}
+
+.news_box .pager {
+	margin:0 0 0 0;
+	padding:40px 0 0 0;
+}
+

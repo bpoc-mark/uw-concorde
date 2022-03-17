@@ -1,0 +1,176 @@
+
+/* main_img_detail
+===============================================================*/
+.main_img_detail .bg_tour {
+	background:url(../images/info/tour/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+	text-indent:-9999px;
+}
+
+
+/* anchor
+===============================================================*/
+.anchor {
+	margin:45px 65px 80px 65px;
+}
+
+.anchor_pt {
+	padding:50px 0 0 0;
+}
+
+
+.anchor li {
+	width:25%;
+	float:left;
+	margin-bottom: 10px;
+}
+
+.anchor_pt li {
+	width:33.3%;
+	float:left;
+}
+
+.anchor li a {
+	display:block;
+	font-size:18px;
+	color:#786e51;
+	padding:20px 18px 20px 18px;
+	margin:0 5px;
+	text-align:center;
+	text-decoration:none;
+	background-color:#eceae5;
+	transition: all 300ms 0s ease;
+}
+
+.anchor li a span {
+	padding:0 20px 0 0;
+	background:url(../images/restaurant/dohman/ar01.jpg) no-repeat right 50%;
+}
+
+.anchor li a:hover {
+	opacity:0.7;
+}
+
+
+/* contarea
+===============================================================*/
+.contarea {
+	margin:0 0 50px 0;
+	position:relative;
+}
+
+.contarea .box {
+	padding:0 0 100px 42%;
+	position:relative;
+}
+
+.contarea .box .ph {
+	width:40%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.contarea .box .ph img {
+	width:100%;
+}
+
+.contarea .box h3 {
+	font-size:24px;
+	padding:0 0 15px 0;
+	font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+.contarea .box .txt {
+	padding:0 0 20px 0;
+}
+
+.contarea .box .txt p {
+	padding:0 0 10px 0;
+}
+
+.contarea .box .child_wrap {
+	padding:26px;
+	background: url(../images/common/bgline.jpg) repeat 0 0;
+}
+
+.contarea .inbox .child {
+	padding:0 13px 20px 26px;
+}
+
+.contarea .inbox .child .t {
+	display:block;
+	color:#786e51;
+	font-size:18px;
+	font-weight:bold;
+	margin:0 0 0 -13px;
+}
+
+.contarea .inbox .child p.add {
+	float:left;
+}
+
+.contarea .inbox .child p.btn {
+    padding:0 0 0 15px;
+	display:block;
+	float:left;
+}
+
+.contarea .inbox .child p.btn a {
+    display:block;
+    width: 100px;
+    padding: 5px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+	background-color:#a3956d;
+	position:relative;
+	top:-5px;
+	left:0;
+	transition: all 300ms 0s ease;
+}
+
+.contarea .inbox .child p.btn a:hover {
+	opacity:0.7;
+}
+
+.contarea .inbox .child p.link a {
+	background:url(../images/common/blank.svg) no-repeat right 5px;
+	background-size:14px auto;
+	padding:0 22px 0 0;
+	text-decoration:underline;
+}
+
+.contarea .inbox .btn2 a {
+    display:block;
+    width: 350px;
+    padding: 10px 0;
+	margin:0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+	background-color:#a3956d;
+	transition: all 300ms 0s ease;
+}
+
+.contarea .inbox .btn2 a:hover {
+	opacity:0.7;
+}
+
+
+
+.child .s_1{
+	margin-top: 45px;
+}
+.contarea .inbox .s_1 p.btn{
+	padding-left: 24px;
+}
+.kome{
+	display: block;
+	margin-left: 1rem;
+	text-indent: -1rem;
+}

@@ -1,0 +1,305 @@
+
+/* base
+===============================================================*/
+h1,h2,h3,h4,h5,h6,p,pre,blockquote,ul,ol,dl,dd,tr {
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+textarea {
+	font-style:normal;
+	font-family:"Hiragino Kaku Gothic Pro", "ÉqÉâÉMÉmäpÉS Pro W3", "ÉÅÉCÉäÉI", Meiryo, Verdana, "ÇlÇr ÇoÉSÉVÉbÉN", "MS P Gothic", san-serif;
+}
+
+body {
+	color:#323232;
+	background-color:#ffffff;
+	font-family:"Hiragino Kaku Gothic Pro", "ÉqÉâÉMÉmäpÉS Pro W3", "ÉÅÉCÉäÉI", Meiryo, Verdana, "ÇlÇr ÇoÉSÉVÉbÉN", "MS P Gothic", san-serif;
+}
+
+.incon {
+	font-family: 'Inconsolata', monospace;
+}
+
+.ropa {
+	font-family: 'Ropa Sans', sans-serif;
+}
+
+.sawa { font-family: "Sawarabi Mincho"; }
+
+.pc {
+	display:none !important;
+}
+
+input {
+	-webkit-border-radius : 0;
+	-webkit-appearance : none;
+	-webkit-tap-highlight-color : rgba(0,0,0,0);
+}
+
+
+/* font
+===============================================================*/
+a { 
+	color:#323232;
+	text-decoration:none;
+}
+ 
+a:visited {
+	color:#323232;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#323232;
+	text-decoration: underline; 
+}
+
+a:active {
+	color:#323232;
+	text-decoration: underline; 
+}
+
+
+/* Contents
+===============================================================*/
+div#AllBox{	
+}
+
+div#Wrapper{
+}
+
+div#Top_Contents {
+	
+}
+
+div#Contents {
+	
+}
+
+div#Main {
+	padding:0 45px 0 0;
+}
+
+div#Main .logo {
+	position:fixed;
+	top:15px;
+	left:13px;
+	z-index:200;
+}
+
+div#Main .t img {
+	width:100%;
+}
+
+.hover ,
+.n {
+	display:none;
+}
+
+div#SideBar {
+		
+}
+
+/* SideBar
+===============================================================*/
+div#SideBar {
+	width:45px;
+	height:100%;
+	position:fixed;
+	top:0;
+	right:0;
+	z-index:5;
+	background-color:#ffffff;
+}
+
+div#SideBar p.pagetop a {
+	width:45px;
+	height:70px;
+	padding:40px 0 0 0;
+	box-sizing:border-box;
+	text-align:center;
+	font-weight:bold;
+	position:fixed;
+	bottom:0;
+	right:0;
+	z-index:5;
+	letter-spacing:0.05em;
+	background:url(../../images/common/line.svg) no-repeat 17px 0;
+	background-size:6px 40px;
+}
+
+div#SideBar .menu_btn {
+	height:81px;
+	position:relative;
+}
+
+.menu-trigger span {
+  display: inline-block;
+  transition: all .4s;
+  box-sizing:border-box;
+}
+.menu-trigger {
+  width:23px;
+  height:60px;
+  display: block;
+  padding:11px;
+  position: absolute;
+  top:0;
+  right:0;
+  z-index:50;
+  transition: all .4s;
+}
+.menu-trigger span {
+  position: absolute;
+  left: 11px;
+  width: 23px;
+  height: 2px;
+  background-color: #080808;
+}
+
+.menu-trigger span:nth-of-type(1) {
+  top: 22px;
+}
+.menu-trigger span:nth-of-type(2) {
+  top: 28px;
+}
+.menu-trigger span:nth-of-type(3) {
+  top: 34px;
+}
+
+.menu_btn .t {
+  position:absolute;
+  top:40px;
+  left:0;
+  width:100%;
+  text-align:center;
+  font-weight:bold;
+  letter-spacing:0.05em;
+  font-size:12px;
+}
+
+.menu-trigger.active span:nth-of-type(1) {
+  -webkit-transform: translateY(8px) rotate(-45deg);
+  transform: translateY(8px) rotate(-45deg);
+   background-color: #ffffff;
+}
+.menu-trigger.active span:nth-of-type(2) {
+  opacity: 0;
+}
+.menu-trigger.active span:nth-of-type(3) {
+  -webkit-transform: translateY(-6px) rotate(45deg);
+  transform: translateY(-6px) rotate(45deg);
+   background-color: #ffffff;
+}
+
+
+
+div#SideBar .lang {
+	height:61px;
+	position:relative;
+	margin:0 0 25px 0;
+}
+
+div#SideBar .lang span {
+	position: absolute;
+	left: 17px;
+	width: 11px;
+	height: 1px;
+	background-color: #999999;
+}
+
+div#SideBar .lang span:nth-of-type(1) {
+	top: 0;
+}
+
+div#SideBar .lang span:nth-of-type(2) {
+	bottom:0;
+}
+
+div#SideBar .lang ul li a {
+	display:block;
+	text-align:center;
+	padding:15px 0;
+	font-size:18px;
+}
+
+div#SideBar .res a {
+	display:block;
+	width:100%;
+	font-size:15px;
+	box-sizing:border-box;
+	-webkit-writing-mode: vertical-rl;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+	letter-spacing:0.05em;
+	padding:34px 12px 0 0;
+	font-weight:bold;
+	background:url(../../images/common/ic.svg) no-repeat center 0;
+	background-size:24px auto;
+	font-family:"ü‡ÉSÉVÉbÉN Medium", "ü‡ÉSÉVÉbÉNëÃ", "Yu Gothic Medium", YuGothic, "ÉqÉâÉMÉmäpÉS ProN", "Hiragino Kaku Gothic ProN", "ÉÅÉCÉäÉI", Meiryo, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif;
+	margin:0 0 25px 0;
+}
+
+
+div#SideBar .tel {
+	height:61px;
+	position:relative;
+	margin:0 0 25px 0;
+}
+
+div#SideBar .tel span {
+	position: absolute;
+	left: 17px;
+	width: 11px;
+	height: 1px;
+	background-color: #999999;
+}
+
+div#SideBar .lang span:nth-of-type(1) {
+	top: 0;
+}
+
+div#SideBar .tel a {
+	display:block;
+	width:100%;
+	height:60px;
+	background:url(../../images/common/ic02.svg) no-repeat center 23px;
+	background-size:21px 26px;
+	text-indent:-9999px;
+}
+
+
+/* HeaderBox
+===============================================================*/
+div#HeaderBox .logo {
+	position:fixed;
+	top:15px;
+	left:13px;
+	z-index:200;
+}
+
+div#HeaderBox .logo img {
+	width:180px;
+}
+
+div#HeaderBox .nav {
+	display:none;
+}
+
+
+/* Navigation
+===============================================================*/
+div#Navigation {
+}
+
+
+/* FooterBox
+===============================================================*/
+div#FooterBox {
+}
+
+
+/* SideBar
+===============================================================*/
+

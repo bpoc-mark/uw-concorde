@@ -1,0 +1,36 @@
+<script>
+$(function() {
+  var h = $(window).height();
+
+  $('#Contents').css('display','none');
+  $('#FooterBox').css('display','none');
+  $('#loader-bg ,#loader').height(h).css('display','block');
+});
+
+window.onpageshow = function(){
+  var h = $(window).height();
+
+  $('#Contents').css('display','none');
+  $('#FooterBox').css('display','none');
+  $('#loader-bg ,#loader').height(h).css('display','block');
+  
+  stopload();
+};
+
+$(window).load(function () {
+  stopload();
+});
+
+$(function(){
+  setTimeout('stopload()',50000);
+});
+
+function stopload(){	
+	$('#Contents').addClass('normal');
+	$('#FooterBox').addClass('normal');
+	$('#Contents').css('display','block');
+	$('#loader-bg').fadeOut(700);
+	$('#loader').fadeOut(700);
+}
+
+</script>
