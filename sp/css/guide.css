@@ -1,0 +1,211 @@
+
+/* main_img_detail
+===============================================================*/
+.box01_03 div.s{
+	padding-top: 0;
+}
+.s .bg{
+	position: relative;
+}
+.main_img_detail .bg_guide01 {
+	background:url(../../sp/images/guide/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+div.box01_03 .single01{
+	background: url(../../sp/images/guide/ph15.jpg) no-repeat left bottom;
+    background-size: cover;	
+}
+div.box01_03 .single02{
+	background: url(../../sp/images/guide/ph16.jpg) no-repeat left bottom;
+    background-size: cover;	
+}
+/* 
+===============================================================*/
+.alink{
+	position: relative;
+}
+
+/* box01
+===============================================================*/
+.box01 .sb a {
+	text-decoration:none;
+}
+
+.box01 .sb .stair {
+	text-align:center;
+	color:#786e51;
+	padding:15px 0 0 0;
+}
+
+.box01 .sb .sub {
+	text-align:center;
+	line-height:1.2;
+}
+
+.box01 .sb h4 {
+	font-size:25px;
+	text-align:center;
+	line-height:1.2;
+	padding:0 0 10px 0;
+}
+
+.box01 .sb ul.cate {
+	padding:0 0 20px 0;
+	text-align:center;
+}
+
+.box01 .sb ul.cate li {
+	display:inline-block;
+	border:#cb8625 1px solid;
+	padding:2px 8px;
+	color:#ce8e34;
+	margin:0 2px;
+}
+
+.box01 .sb ul.btns {
+	margin:0 13px 80px 13px;
+}
+
+.box01 .sb ul.btns .morebtn {
+	width:47%;
+	float:left;
+}
+
+.box01 .sb ul.btns .morebtn a {
+	width:100%;
+}
+
+.box01 .sb ul.btns .convbtn {
+	width:47%;
+	float:right;
+	padding:0;
+}
+
+.box01 .sb ul.btns .convbtn a {
+	margin:0;
+}
+/* box01_02
+===============================================================*/
+.box01_03,
+.box01_02{
+	margin-bottom:85px;
+}
+.g_img img{
+	width: 100%;
+	height: auto;
+}
+.sb_02 a {
+	text-decoration:none;
+}
+
+.sb_02 .stair {
+	text-align:center;
+	color:#786e51;
+	padding:20px 0 2px 0;
+}
+
+.sb_02 .stair span {
+	font-size:14px;
+}
+
+.space .stair{
+	padding-top: 20px;
+}
+.sb_02 .sub {
+	text-align:left;
+	padding-left: 9px;
+}
+.sb_02 p.g_s{
+	margin-bottom: 20px;
+}
+.sb_02 h4 {
+	font-size:25px;
+	text-align:center;
+	line-height:1.2;
+	padding:3px 0 22px 0;
+}
+.sb_02 h4.t{
+	padding-top: 0
+}
+.sb_02 .g_cen{
+	text-align: center;
+	line-height: 1.4;
+	padding-left: 0;
+}
+
+.sb_02 ul.cate {
+	padding:0 0 20px 0;
+	text-align:center;
+}
+
+.sb_02 ul.cate li {
+	display:inline-block;
+	border:#cb8625 1px solid;
+	padding:2px 8px;
+	color:#ce8e34;
+	margin:0 2px;
+}
+
+.box01_02 .sb_02 ul.btns {
+	margin:0 13px 80px 13px;
+}
+
+.box01_02 .sb_02 ul.btns .morebtn {
+	width:47%;
+	float:left;
+}
+
+
+.box01_02 .sb_02 ul.btns .convbtn {
+	width:47%;
+	float:right;
+	padding:0;
+}
+
+.box01_02 .sb_02 ul.btns .convbtn a {
+	margin:0;
+}
+.box01_02 .sb_02 p.g_int{
+	padding: 0;
+	text-align: left;
+	padding-left: 12px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/* box01_03
+===============================================================*/
+
+.box01_03 .sb_03 li:first-child{
+	margin: 20px 0 20px 0;
+}
+.box01_03 .sb_03 li{
+	padding-left:8px;
+}
+.g_box01 .s_bg{
+	font-size: 30px;
+	padding:20px 0 20px 0;
+	background:url(../images/common/bgline.jpg) repeat 0 0;
+	background-size:13px 3px;
+}
+
+/* anchor
+===============================================================*/
+.anchor {
+	margin:25px 13px 70px 13px;
+}
+
+.anchor_pt {
+	padding:30px 0 0 0;
+}
+
+.anchor li a {
+	display:block;
+	padding:10px 18px 10px 18px;
+	margin:0 0 10px 0;
+	text-decoration:none;
+	background: url(../images/common/ar03.jpg) #eceae5 no-repeat right 50%;
+	background-size:21px 6px;
+}
+

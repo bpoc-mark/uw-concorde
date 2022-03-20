@@ -1,0 +1,144 @@
+
+/* main_img_detail
+===============================================================*/
+.main_img_detail img {
+	width:100%;
+}
+
+.main_img_detail .bg_tour {
+	height:auto !important;
+}
+
+
+
+/* anchor
+===============================================================*/
+.anchor {
+	margin:20px 13px 30px 13px;
+}
+
+.anchor_pt {
+	padding:30px 0 0 0;
+}
+
+
+.anchor li a {
+	display:block;
+	padding:10px 18px 10px 18px;
+	margin:0 0 10px 0;
+	text-decoration:none;
+	background: url(../images/common/ar03.jpg) #eceae5 no-repeat right 50%;
+	background-size:21px 6px;
+}
+
+
+/* contarea
+===============================================================*/
+.contarea {
+	margin:0 13px 75px 13px;
+	position:relative;
+}
+
+.contarea .box {
+	margin:0 0 10px 0;
+	
+}
+
+.contarea h3 {
+	background:none;
+	background:url(../images/restaurant/champs/plus2.jpg) #eceae5 no-repeat right 50%;
+	background-size:35px 22px;
+	text-align:center;
+	cursor:pointer;
+	margin:0;
+	font-size:18px;
+	font-weight:normal;
+	color:#786e51;
+	padding: 8px 40px 8px 0;
+}
+
+.contarea h3.open {
+	background:none;
+	background:url(../images/restaurant/champs/minus2.jpg) #eceae5 no-repeat right 50%;
+	background-size:35px 22px;
+}
+
+.contarea .inbox {
+	display:none;
+	border-right:#eceae5 5px solid;
+	border-left:#eceae5 5px solid;
+	border-bottom:#eceae5 5px solid;
+	margin:0 0 10px 0;
+	padding:0 0 20px 0;
+}
+
+.contarea .inbox img {
+	width:100%;
+	height:auto;
+}
+
+.contarea .inbox .txt {
+	padding:0 13px;
+}
+
+.contarea .inbox .txt p {
+	padding:10px 0 0 0;
+}
+
+.contarea .inbox .child {
+	padding:25px 13px 0 26px;
+}
+
+.contarea .inbox .child .t {
+	display:block;
+	color:#786e51;
+	font-size:18px;
+	font-weight:bold;
+	margin:0 0 0 -13px;
+}
+
+.contarea .inbox .child p.btn {
+    padding:12px 0 0 0;
+}
+
+.contarea .inbox .child p.btn a {
+    display: block;
+    width: 150px;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    background: url(../../images/common/ar03.svg) #a3956d no-repeat right 15px top 47%;
+    background-size: 30px auto;
+}
+
+.contarea .inbox .child p.link a {
+	background:url(../../images/common/blank.svg) no-repeat right 5px;
+	background-size:14px auto;
+	padding:0 22px 0 0;
+	text-decoration:underline;
+}
+
+.contarea .inbox .btn2 a {
+    display: block;
+    width: 280px;
+	margin:15px auto 0;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    background: url(../../images/common/ar03.svg) #a3956d no-repeat right 15px top 47%;
+    background-size: 30px auto;
+}
+
+.s_1{
+	margin-top: 10px;
+}
+.kome{
+	display: block;
+	margin-left: 14px;
+	text-indent: -14px;
+}

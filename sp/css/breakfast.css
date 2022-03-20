@@ -1,0 +1,52 @@
+
+/* main_img_detail
+===============================================================*/
+.main_img_detail .bg_breakfast01 {
+	background:url(../images/breakfast/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.breakfast_info{
+    background-color: #faf6e9;
+	padding: 20px 13px;
+	color: #a20000;
+}
+.breakfast_info .flex-box { margin-top: 20px;}
+.breakfast_info figure {
+	margin: 15px 0;
+}
+.breakfast_info figure img {
+	width: 100%;
+}
+
+
+/* gallery
+===============================================================*/
+.gallery {
+	margin:0 0 75px 0;
+}
+
+.gallery ul li {
+	width:33.3%;
+	float:left;
+}
+
+
+.gallery ul li a {
+	display:block;
+	position:relative;
+}
+
+
+.gallery ul li img {
+	width:100%;
+}
+
+.gallery ul li img.ic {
+	width:15px;
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+
+
