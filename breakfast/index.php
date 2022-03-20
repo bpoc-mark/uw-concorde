@@ -8,8 +8,8 @@
         <link rel="canonical" href="<?php echo CANONICAL ?>">
         <meta name="keywords" content="<?php echo KEY_WORD ?>">
         <meta name="description" content="<?php echo DESCRIPTION ?>">
-        <title>館内案内｜<?php echo SITE_NAME ?></title>
-        <meta property="og:title" content="館内案内｜<?php echo SITE_NAME ?>">
+        <title>朝食バイキング｜<?php echo SITE_NAME ?></title>
+        <meta property="og:title" content="朝食バイキング｜<?php echo SITE_NAME ?>">
         <meta property="og:type" content="website">
         <meta property="og:description" content="<?php echo DESCRIPTION ?>">
         <meta property="og:url" content="<?php echo CANONICAL ?>">
@@ -44,7 +44,7 @@
                         <div class="topic_path">
                             <ul>
                                 <li class="home"><a href="/">浜松のホテルコンコルド浜松</a></li>
-                                <li>ご宿泊</li>
+                                <li><a href="/rooms/">ご宿泊</a></li>
                                 <li>朝食バイキング</li>
                             </ul>
                         </div>
@@ -467,8 +467,9 @@
             });
             
             $('.btnPreventionClose').click(function(){
-                $(this).parent().next('.content').slideToggle();
-                $(this).toggleClass('open')
+                $(this).parent().parent().hide();
+                // $(this).parent().next('.content').slideToggle();
+                // $(this).toggleClass('open')
             })
         </script>
     </body>
