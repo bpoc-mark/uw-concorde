@@ -178,7 +178,7 @@
 .breakfast-content .sect-1 .prevention h3 .btnPreventionClose.open::before {
   -webkit-transform: translate(-50%, -50%) rotate(90deg);
           transform: translate(-50%, -50%) rotate(90deg);
-  opacity: 1;
+  opacity: 0;
 }
 
 .breakfast-content .sect-1 .prevention h3 .btnPreventionClose.open::after {
@@ -214,13 +214,14 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%) rotate(90deg);
           transform: translate(-50%, -50%) rotate(90deg);
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
 
 .breakfast-content .sect-1 .prevention .content {
   padding: 26px 40px 23px;
+  display: none;
 }
 
 .breakfast-content .sect-1 .prevention .content p {
@@ -566,34 +567,13 @@
   color: #eb6100;
 }
 
-.breakfast-content .sect-5 .wrapper a {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 447px;
-  height: 60px;
-  margin: 45px auto 0;
-  background-color: #c0743b;
-  color: #fff;
-  font-weight: 700;
-  font-size: 19px;
-  letter-spacing: .15em;
+.breakfast-content .sect-5 .wrapper .convbtn {
+  margin: 45px 0 0;
 }
 
-.breakfast-content .sect-5 .wrapper a img {
-  width: 32px;
-  position: absolute;
-  top: 50%;
-  right: 15px;
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
+.breakfast-content .sect-5 .wrapper .convbtn a {
+  width: 390px;
+  padding: 16px 0;
 }
 
 .breakfast-content .sect-6 {

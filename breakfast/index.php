@@ -377,7 +377,7 @@
                                     ※掲載の写真はイメージです。
                                 </p>
                                 <a id="btnmenuMore" class="incon sp btnmenuMore2">MORE<span></span></a>
-                                <a href="">朝食付きプランのご予約は<br class="sp">こちら<img src="/images/breakfast/arrow-icon.png" alt=""></a>
+                                <p class="convbtn"><a href="https://asp.hotel-story.ne.jp/ver3d/planlist.asp?hcod1=82190&amp;hcod2=001&amp;mode=seek&amp;c2Type=9003&amp;clrmode=seek&amp;hidmode=select" target="_blank">朝食付きプランのご予約は<br class="sp">こちら</a></p>
                             </div>
                         </div>
                         <div class="sect-6">
@@ -467,9 +467,8 @@
             });
             
             $('.btnPreventionClose').click(function(){
-                $(this).parent().parent().hide();
-                // $(this).parent().next('.content').slideToggle();
-                // $(this).toggleClass('open')
+                $(this).parent().next('.content').slideToggle();
+                $(this).toggleClass('open')
             })
         </script>
     </body>
