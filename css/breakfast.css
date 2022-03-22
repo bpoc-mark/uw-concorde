@@ -159,6 +159,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: pointer;
 }
 
 .breakfast-content .sect-1 .prevention h3 .btnPreventionClose {

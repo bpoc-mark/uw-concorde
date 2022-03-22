@@ -466,9 +466,9 @@
                 $(this).hide();
             });
             
-            $('.btnPreventionClose').click(function(){
-                $(this).parent().next('.content').slideToggle();
-                $(this).toggleClass('open')
+            $('.prevention h3').click(function(){
+                $(this).next('.content').slideToggle();
+                $(this).find('.btnPreventionClose').toggleClass('open')
             })
         </script>
     </body>
