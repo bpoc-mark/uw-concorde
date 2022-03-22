@@ -99,8 +99,8 @@
 									<p class="sawa">和食の神髄は出汁（だし）。職人の仕事は、朝一番に出汁を取ることから始まります。その出汁の旨味を存分にお楽しみいただける味噌汁をはじめ、料理人手作りのお惣菜をご用意しております。</p>
 								</div>
 								<div class="chef-item">
-									<h3>
-										<span>洋食料理長</span>
+									<h3 class="sawa">
+										<span class="sawa">洋食料理長</span>
 										杉山 博
 									</h3>
 									<div class="img-wrap">
