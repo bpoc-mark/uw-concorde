@@ -243,6 +243,7 @@
   letter-spacing: .06em;
   text-align: center;
   margin: 0 0 18px;
+  color: #333333;
 }
 
 .breakfast-content .sect-2 .chef-wrapper .chef-item h3 span {
@@ -250,6 +251,7 @@
   font-weight: 400;
   font-size: 15px;
   letter-spacing: .06em;
+  color: #333333;
 }
 
 .breakfast-content .sect-2 .chef-wrapper .chef-item .img-wrap {
@@ -269,6 +271,7 @@
   text-align: justify;
   border-top: 1px solid #bf8786;
   padding: 14px 0 0;
+  color: #333333;
 }
 
 .breakfast-content .sect-3 {
@@ -595,6 +598,10 @@
 
 .breakfast-content .sect-5 .wrapper .food .food-item .food-list ul:nth-child(2) {
   display: none;
+}
+
+.breakfast-content .sect-5 .wrapper .food .food-item ul.mgt-27 {
+  margin-top: 20px;
 }
 
 .breakfast-content .sect-5 .wrapper .food .food-item ul li p {

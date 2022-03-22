@@ -199,11 +199,13 @@
 					letter-spacing: .06em;
 					text-align: center;
 					margin: 0 0 18px;
+					color: #333333;
 					span{
 						display: block;
 						font-weight: 400;
 						font-size: 15px;
 						letter-spacing: .06em;
+						color: #333333;
 					}
 				}
 				.img-wrap{
@@ -221,6 +223,7 @@
 					text-align: justify;
 					border-top: 1px solid #bf8786;
 					padding: 14px 0 0;
+					color: #333333;
 				}
 			}
 		}
@@ -489,6 +492,9 @@
 						}
 					}
 					ul{
+						&.mgt-27{
+							margin-top: 20px;
+						}
 						li{
 							p{
 								font-weight: 400;
