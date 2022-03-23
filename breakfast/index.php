@@ -76,10 +76,10 @@
 								<h3>感染防止の為の取り組み<span class="btnPreventionClose"></span></h3>
 								<div class="content">
 									<p class="txtIndent">・朝食会場ではお料理を取りに行く際にマスクの着用が必須となります。</p>
-									<p class="txtIndent">・お料理を取る際は、会場内に設置しておりますビニール手袋をご着用<br class="pc">ください。</p>
-									<p class="txtIndent">・料理台には飛沫防止用のアクリルプレートを設置しております。</p>
+									<p class="txtIndent">・お料理を取る際は、会場内に設置しておりますビニール手袋をご着用ください。</p>
 									<p class="txtIndent">・料理台のトング類は定期的に交換をしております。</p>
 									<p class="txtIndent">・会場内には消毒液を設置しておりますのでご利用をお願いいたします。</p>
+									<p class="txtIndent">・会場内には空気殺菌器を設置しております。</p>
 									<br>
 									<p class="txtIndent">※今後の状況によっては、ご提供方法が予告なく変更となる場合が<br class="pc">ございます。</p>
 								</div>
@@ -137,10 +137,10 @@
                                     <div class="menu-img">
                                         <img src="/images/breakfast/menu03.jpg" alt="３種のオムレツ">
                                     </div>
-                                    <div class="menu-content">
+                                    <div class="menu-content"> 
                                         <span class="sawa">-和食職人の逸品- </span>
                                         <h3 class="sawa">出汁（だし）香る味噌汁</h3>
-                                        <p>和食の料理人が朝一番で鰹節から出汁（だし）をとり、丁寧に仕上げた味噌汁です。</p>
+                                        <p>和食の料理人が丁寧に鰹節から出汁（だし）をとり、味わい深く仕上げたお味噌 汁です。</p>
                                     </div>
 								</div>
 								<div class="menu-item">
@@ -373,7 +373,7 @@
                                 </div>
                                 <p class="desc">
                                     <span>※仕入れ状況などにより予告なくメニューを変更する場合がございます。</span><br>
-                                    <span>※赤字の品目は浜松・浜名湖地域の食材「浜松パワーフード」を使用しています。</span><br>
+                                    ※<span>赤字</span>の品目は浜松・浜名湖地域の食材「浜松パワーフード」を使用しています。<br>
                                     ※掲載の写真はイメージです。
                                 </p>
                                 <a id="btnmenuMore" class="incon sp btnmenuMore2">MORE<span></span></a>
