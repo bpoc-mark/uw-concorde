@@ -250,8 +250,15 @@
 					display: block;
 				}
 				.menu-img{
+					position: relative;
 					img{
 						width: 100%;
+					}
+					.power-logo{
+						width: 37px;
+						position: absolute;
+						top: 5px;
+						left: 5px;
 					}
 				}
 				.menu-content{
@@ -368,8 +375,15 @@
 				text-align: center;
 				.img-wrap{
 					margin: 0 0 11px;
+					position: relative;
 					img{
 						width: 100%;
+					}
+					.power-logo{
+						width: 37px;
+						position: absolute;
+						top: 5px;
+						left: 5px;
 					}
 				}
 				.date{

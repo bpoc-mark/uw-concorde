@@ -96,7 +96,7 @@
 									<div class="img-wrap">
 										<img src="/images/breakfast/chef-img-1.jpg" alt="鈴木 康生">
 									</div>
-									<p class="sawa">和食の神髄は出汁（だし）。職人の仕事は、朝一番に出汁を取ることから始まります。その出汁の旨味を存分にお楽しみいただける味噌汁をはじめ、料理人手作りのお惣菜をご用意しております。</p>
+									<p class="sawa">和食の神髄は出汁（だし）。鰹節と昆布から丁寧に出汁を取ることにこだわっています。その出汁の旨味を存分に味わっていただける味噌汁をはじめ、料理人手作りのお惣菜をお楽しみください。</p>
 								</div>
 								<div class="chef-item">
 									<h3 class="sawa">
@@ -140,12 +140,13 @@
                                     <div class="menu-content"> 
                                         <span class="sawa">-和食職人の逸品- </span>
                                         <h3 class="sawa">出汁（だし）香る味噌汁</h3>
-                                        <p>和食の料理人が丁寧に鰹節から出汁（だし）をとり、味わい深く仕上げたお味噌 汁です。</p>
+                                        <p>和食の料理人が丁寧に鰹節から出汁（だし）をとり、味わい深く仕上げたお味噌汁です。</p>
                                     </div>
 								</div>
 								<div class="menu-item">
                                     <div class="menu-img">
                                         <img src="/images/breakfast/menu04.jpg" alt="浜松パワーフードソーセージ">
+                                        <img src="/images/breakfast/power-logo.jpg" class="power-logo" alt="">
                                     </div>
                                     <div class="menu-content">
                                         <span class="sawa">-地元浜松産食材-</span>
@@ -176,11 +177,12 @@
 								<div class="menu-item">
                                     <div class="menu-img">
                                         <img src="/images/breakfast/menu07.jpg" alt="うなぎいもプリン ">
+                                        <img src="/images/breakfast/power-logo.jpg" class="power-logo" alt="">
                                     </div>
                                     <div class="menu-content">
                                         <span class="sawa">-パティシエ特製デザート-</span>
                                         <h3 class="sawa">うなぎいもプリン</h3>
-                                        <p>鰻を飼料に育てたサツマイモ「うなぎいも」を使ったプリンです。滑らかな味わいをお楽しみください。</p>
+                                        <p>鰻を肥料に育てたサツマイモ「うなぎいも」を使ったプリンです。滑らかな味わいをお楽しみください。</p>
                                     </div>
 								</div>
 								<div class="menu-item">
@@ -208,6 +210,7 @@
                                 <div class="cook-item">
                                     <div class="img-wrap">
                                         <img src="/images/breakfast/cook02.jpg" alt="三ケ日みかん風味の長坂養蜂場のはちみつゼリー ">
+                                        <img src="/images/breakfast/power-logo.jpg" class="power-logo" alt="">
                                     </div>
                                     <p class="date sawa">〈2022年3月〉</p>
                                     <span class="sawa">-パティシエ　柴田-</span>
@@ -217,6 +220,7 @@
                                 <div class="cook-item">
                                     <div class="img-wrap">
                                         <img src="/images/breakfast/cook03.jpg" alt="三方原大根と遠州灘産しらすの柚子風味和え">
+                                        <img src="/images/breakfast/power-logo.jpg" class="power-logo" alt="">
                                     </div>
                                     <p class="date sawa">〈2022年3月〉</p>
                                     <span class="sawa">-和食料理人　三浦-</span>
@@ -290,7 +294,7 @@
                                                     <p class="sawa">・漬物</p>
                                                 </li>
                                                 <li>
-                                                    <p class="sawa">・<span>舞阪産しらすおろし</span></p>
+                                                    <p class="sawa">・<span>遠州灘産しらすおろし</span></p>
                                                 </li>
                                                 <li>
                                                     <p class="sawa">・納豆</p>
@@ -314,13 +318,13 @@
                                                     <p class="sawa">・<span>うなぎいも</span>プリン</p>
                                                 </li>
                                                 <li>
-                                                    <p class="sawa">・<span>いなさ牛乳</span>パンナコッタ</p>
+                                                    <p class="sawa">・いなさ牛乳パンナコッタ</p>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="food-item">
-                                        <h3>限定フードメニュー</h3>
+                                        <h3>日替わりフードメニュー</h3>
                                         <ul>
                                             <li>
                                                 <p>&#60;奇数日限定&#62;</p>

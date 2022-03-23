@@ -308,8 +308,19 @@
   display: block;
 }
 
+.breakfast-content .sect-3 .menu-wrapper .menu-item .menu-img {
+  position: relative;
+}
+
 .breakfast-content .sect-3 .menu-wrapper .menu-item .menu-img img {
   width: 100%;
+}
+
+.breakfast-content .sect-3 .menu-wrapper .menu-item .menu-img .power-logo {
+  width: 37px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
 }
 
 .breakfast-content .sect-3 .menu-wrapper .menu-item .menu-content {
@@ -455,10 +466,18 @@
 
 .breakfast-content .sect-4 .cook .cook-item .img-wrap {
   margin: 0 0 11px;
+  position: relative;
 }
 
 .breakfast-content .sect-4 .cook .cook-item .img-wrap img {
   width: 100%;
+}
+
+.breakfast-content .sect-4 .cook .cook-item .img-wrap .power-logo {
+  width: 37px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
 }
 
 .breakfast-content .sect-4 .cook .cook-item .date {
