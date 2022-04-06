@@ -1,0 +1,1286 @@
+
+/* main_img_detail
+===============================================================*/
+.main_img_detail .bg_concorde {
+	background:url(../images/restaurant/concorde/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .bg_dohman {
+	background:url(../images/restaurant/dohman/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .bg_champs {
+	background:url(../images/restaurant/champs/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .bg_champs_lunch {
+	background:url(../images/restaurant/champs/main02.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .bg_champs_dinner {
+	background:url(../../sp/images/restaurant/champs/ph06.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .bg_bonjour {
+	background:url(../images/restaurant/bonjour/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .bg_wongfu {
+	background:url(../images/restaurant/wongfu/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+p.restaurant_info{
+    background-color: #faf6e9;
+	padding: 20px 13px;
+	color: #a20000;
+}
+
+p.restaurant_info a{
+	color: #a20000;
+	text-decoration: underline;
+}
+
+p.restaurant_info span{
+    font-weight: bold;
+}
+
+
+/* top
+===============================================================*/
+.main_img_detail .r01 {
+	background:url(../images/restaurant/top/img01new.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .r02 {
+	background:url(../images/restaurant/top/img02new.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .r03 {
+	background:url(../images/restaurant/top/img03new.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .r04 {
+	background:url(../images/restaurant/top/img04new.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .r05 {
+	background:url(../images/restaurant/top/img05new.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .r06 {
+	background:url(../images/restaurant/top/img06new.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .r07 {
+	background:url(../images/restaurant/top/img07.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .r08 {
+	background:url(../images/restaurant/top/img08new.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .r09{
+	background:url(../images/restaurant/top/img09.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+
+/* box01
+===============================================================*/
+.box01 .sb a {
+	text-decoration:none;
+}
+
+.box01 .sb .stair {
+	text-align:center;
+	color:#786e51;
+	padding:15px 0 0 0;
+}
+
+.box01 .sb .stair span {
+	font-size:14px;
+}
+
+.box01 .sb .sub {
+	text-align:center;
+	line-height:1.2;
+}
+
+.box01 .sb .sawa.c {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.box01 .sb h4 {
+	font-size:25px;
+	text-align:center;
+	line-height:1.2;
+	padding:0 0 10px 0;
+}
+
+.box01 .sb ul.cate {
+	padding:0 0 20px 0;
+	text-align:center;
+}
+
+.box01 .sb ul.cate li {
+	display:inline-block;
+	/*border:#cb8625 1px solid;*/
+	padding:2px 8px;
+	/*color:#ce8e34;*/
+	margin:0 2px;
+	background-color:#f9f8f8;
+}
+
+.box01 .sb ul.btns {
+	margin:0 13px 0 13px;
+}
+
+.box01 .sb ul.btns .morebtn {
+	width:48%;
+	float:left;
+}
+
+.box01 .sb ul.btns .morebtn2 {
+	width:48%;
+	float:none;
+	margin:0 auto;
+}
+
+.box01 .sb ul.btns .morebtn a {
+	width:100%;
+	height:26px;
+}
+
+.box01 .sb ul.btns .convbtn {
+	width:48%;
+	float:right;
+	padding:0;
+}
+
+.box01 .sb ul.btns .convbtn a {
+	margin:0;
+	height:26px;
+}
+
+.box01 .sb ul.btns .nolink {
+	width: 70%;
+	padding: 13px 0;
+	text-align: center;
+	color: #fff;
+	background: #323232;
+}
+
+.box01 .sb ul.btns .morebtn3 {
+	width: 100%;
+	float: none;
+	margin: 0 auto;
+}
+.box01 .sb ul.btns .morebtn3 a {
+	height: 52px;
+	letter-spacing: normal;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* s_meu_box
+===============================================================*/
+.menu_list{
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu_list h2{
+	width: 100%;
+}
+
+.s_menu_box {
+	margin:0 0 75px 0;
+	position:relative;
+}
+
+.s_menu_box h2 span.red_box{
+	font-size: 14px;
+	padding: 2px 20px 0;
+	color: #fff;
+	background: #a30a0a;
+	font-weight: 400;
+	font-family: sans-serif;
+	line-height: 1.4;
+	width: 85px;
+	margin: 0 auto 5px;
+}
+
+.s_menu_box p.term {
+	text-align: center;
+    font-size: 22px;
+    font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+	-webkit-font-smoothing: antialiased;
+    margin: 0 auto 30px;
+	color: #a30a0a;
+	width: 100%;
+}
+
+.s_menu_box p.term span {
+	display: block;
+}
+
+.s_menu_box p.clear {
+	text-align:center;
+}
+
+.s_menu_box .s_menu_box_info {
+	clear: both;
+	padding: 0 0 0 13px;
+}
+
+.s_menu_box div.othermenu{
+	width: 100%;
+}
+.s_menu_box div.othermenu ul{
+	background-color: #ede6d3;
+    padding: 20px 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.s_menu_box div.othermenu ul li{
+	list-style-type: disc;
+    margin-left: 20px;
+}
+.s_menu_box div.othermenu p{
+	padding: 0 0 5px 13px;
+}
+
+
+
+.s_menu_box h3 {
+	background:url(../images/common/bgline.jpg) repeat 0 0;
+	background-size:13px 3px;
+	margin:0 0 30px 0;
+	padding:13px;
+	clear:both;
+	width: 100%;
+}
+
+.s_menu_box h3 dl {
+	text-align:center;
+}
+
+.s_menu_box h3 dl dt {
+	color:#786e51;
+	font-weight:bold;
+	font-size:20px;
+	display:inline-block;
+	padding:0 30px 0 0;
+}
+
+.s_menu_box h3 dl dt span.s {
+	font-size:14px;
+}
+
+.s_menu_box h3 dl dd {
+	font-weight:normal;
+	display:inline-block;
+	font-size: 18px;
+}
+
+
+.s_menu_box .box_b {
+	margin:0 0 25px 0;
+}
+
+.s_menu_box .box_b .ph img {
+	width:100%;
+}
+
+.s_menu_box .box_b .t {
+	padding:8px 12px;
+	font-size:14px;
+}
+
+.s_menu_box .box_s {
+	width:50%;
+	float:left;
+	margin:0 0 25px 0;
+}
+
+.s_menu_box .box_s:nth-child(2n) .in {
+	padding:0 0 0 5px;
+}
+
+.s_menu_box .box_s:nth-child(2n+1) .in {
+	padding:0 5px 0 0;
+}
+
+
+.s_menu_box .box_s .ph img {
+	width:100%;
+}
+
+.s_menu_box .box_s .t {
+	padding:8px 12px;
+	font-size:14px;
+	line-height:1.4;
+}
+
+.s_menu_box .box_s .t span.hosoku{
+	display: block;
+	font-size: 12px;
+}
+
+.s_menu_box .box_s .t span.price {
+    font-size: 23px;
+    font-weight: 700;
+    color: #786e51;
+    font-family: serif;
+    margin-right: 3px;
+}
+
+.s_menu_box .restaurant_detail {
+	margin:0 13px;
+}
+
+.s_menu_box .note {
+	margin:0 0 2em 1em;
+	text-indent:-1em;
+}
+
+
+/* restaurant_detail 
+===============================================================*/
+.restaurant_detail {
+	padding:25px 0 0 0;
+}
+
+.restaurant_detail ul {
+	box-sizing:border-box;
+	padding:0 0 15px 0;
+}
+
+.restaurant_detail ul li {
+	padding:0 0 25px 0.8em;
+	line-height:1.3;
+}
+
+.restaurant_detail ul li span {
+	display:none;
+}
+
+.restaurant_detail ul li span.kome {
+    text-indent: -14px;
+    padding-left: 14px;
+    display: inline-block;
+}
+
+.restaurant_detail ul li span.s {
+	display:inline;
+	font-size:14px;
+}
+
+.restaurant_detail ul li p {
+	font-size:14px;
+}
+
+
+.restaurant_detail ul li b {
+	display:block;
+	color:#786e51;
+	font-size:18px;
+	line-height:1.3;
+	margin:0 0 0 -0.8em;
+}
+
+.restaurant_detail ul li strong.pt {
+	display:inline-block;
+	padding:10px 0 0 0;
+}
+
+.restaurant_detail ul li dl dt {
+	width:40%;
+	float:left;
+	font-size:14px;
+}
+
+.restaurant_detail ul li dl dt span.s {
+	font-size:14px;
+	display:inline;
+}
+
+
+.restaurant_detail ul li dl.color ,
+.restaurant_detail ul li dl.color2 {
+	margin:0 0 4px 0;
+	position:relative;
+}
+
+.restaurant_detail ul li dl.color dt {
+	width:70px;
+	background-color:#ede6d3;
+	border-radius:5px;
+	padding:2px 6px;
+	box-sizing:border-box;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.restaurant_detail ul li dl.color2 dt {
+	width:50%;
+	background-color:#ede6d3;
+	border-radius:5px;
+	padding:2px 6px;
+	box-sizing:border-box;
+}
+
+.restaurant_detail ul li dl dd {
+	width:60%;
+	float:right;
+	font-size:14px;
+}
+
+.restaurant_detail ul li dl dd span {
+	display:inline;
+	font-size:14px;
+}
+
+.restaurant_detail ul li dl.color dd {
+	width:auto;
+	padding:2px 6px 2px 80px;
+	box-sizing:border-box;
+	float:none;
+}
+
+.restaurant_detail ul li dl.color2 dd {
+	width:48%;
+}
+
+.restaurant_detail ul li a.pdf {
+	display:inline-block;
+	text-decoration:underline;
+	background:url(../../images/common/pdf.svg) no-repeat right 8px top 50%;
+	background-size:16px auto;
+	padding:6px 30px 4px 0;
+}
+
+
+
+
+/* anchor
+===============================================================*/
+.anchor {
+	margin:0 13px 65px 13px;
+	width: calc(100% - 26px);
+}
+
+.anchor_concorde { margin-bottom: 30px;}
+
+.anchor_pt {
+	padding:30px 0 0 0;
+}
+
+.anchor li a {
+	display:block;
+	padding:10px 18px 10px 18px;
+	margin:0 0 10px 0;
+	text-decoration:none;
+	background: url(../images/common/ar03.jpg) #eceae5 no-repeat right 50%;
+	background-size:21px 6px;
+}
+
+
+/* message
+===============================================================*/
+.message {
+	margin:0 0 75px 0;	
+	position:relative;
+}
+
+
+/* menu
+===============================================================*/
+.menu {
+	margin:0 0 75px 0;
+	position:relative;
+}
+
+.menu .cont02 ,
+.menu .cont03 ,
+.menu .cont04 {
+	display:none;
+}
+
+.menu h3 {
+	color:#786e51;
+	font-size:18px;
+	padding:0 13px 10px 13px;
+}
+
+.menu ul {
+	text-align:center;
+	padding:0 13px 30px 13px;
+}
+
+.menu ul li {
+	display:inline-block;
+}
+
+.menu ul li a {
+	display:block;
+	text-decoration:none;
+	padding:0 8px 0 8px;
+	background:url(../images/top/line.jpg) no-repeat right 50%;
+}
+
+.menu ul li.end a {
+	background:none;
+	padding:0 0 0 16px;
+}
+
+.menu ul li a span {
+	display:block;
+	width:0;
+	height:3px;
+	margin:0 auto;
+	border-bottom:#c5ac62 2px solid;
+	transition: all 300ms 0s ease;
+}
+
+.menu ul li a.here span {
+	width:100%;
+}
+
+.menu .box_s {
+	width:50%;
+	float:left;
+	margin:0 0 25px 0;
+}
+
+.menu .cont .box_s:nth-child(2n+1) {
+	clear:both;
+}
+
+.menu .cont .box_s:nth-child(2n) a {
+	display:block;
+	padding:0 0 0 5px;
+}
+
+.menu .cont .box_s:nth-child(2n+1) a {
+	display:block;
+	padding:0 5px 0 0;
+}
+
+.menu .cont .box_s a {
+	position:relative;
+	display:block;	
+}
+
+.menu .box_s .ph {
+	overflow:hidden;
+}
+
+.box01_s {
+	padding:0 0 10px 0 !important;
+}
+
+.menu .box_s .ph img {
+	width:100%;
+	transition: all 300ms 0s ease;
+}
+
+.menu .box_s .t {
+	padding:8px 12px;
+	font-size:14px;
+	line-height:1.4;
+	background:url(../images/common/bgline.jpg) repeat 0 0;
+	background-size:13px 3px;
+	position:relative;
+}
+
+.menu .box_s .t span {
+	display:inline-block;
+	background-color:#ede6d3;
+	border-radius:5px;
+	color:#786e51;
+	font-size:14px;
+	padding:2px 5px;
+	margin:0 0 5px 0;
+}
+
+.menu .box_s .ic {
+	width:15px;
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+
+
+/* modal
+===============================================================*/
+.modal {
+	display:none;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.3);
+	/*
+	background:url(../images/common/bgline.jpg) repeat 0 0;
+	background-size:13px 3px;
+	*/
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:500;
+	padding:13px;
+	box-sizing:border-box;
+}
+
+.modal .inner {
+	overflow:auto;
+	background-color:#fff;
+	padding:30px 35px 15px 15px;
+	-webkit-overflow-scrolling: touch
+}
+
+
+.modal .menu_btn {
+	width:45px;
+	position:fixed;
+	top:15px;
+	right:15px;
+	z-index:300;
+}
+
+.menu-trigger2 span {
+  display: inline-block;
+  transition: all .4s;
+  box-sizing:border-box;
+}
+.menu-trigger2 {
+  width:23px;
+  height:60px;
+  display: block;
+  padding:11px;
+  position: absolute;
+  top:0;
+  right:0;
+  z-index:50;
+  transition: all .4s;
+}
+.menu-trigger2 span {
+  position: absolute;
+  left: 11px;
+  width: 23px;
+  height: 2px;
+  background-color: #080808;
+}
+
+.menu-trigger2 span:nth-of-type(1) {
+  top: 22px;
+}
+.menu-trigger2 span:nth-of-type(2) {
+  top: 28px;
+}
+.menu-trigger2 span:nth-of-type(3) {
+  top: 34px;
+}
+
+.menu_btn .t3 {
+	display:block;
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+	letter-spacing:0.05em;
+	font-size:12px;
+}
+
+.modal  .menu-trigger2 span:nth-of-type(1) {
+  -webkit-transform: translateY(6px) rotate(-45deg);
+  transform: translateY(6px) rotate(-45deg);
+}
+
+.modal  .menu-trigger2 span:nth-of-type(2) {
+  opacity: 0;
+}
+.modal  .menu-trigger2 span:nth-of-type(3) {
+  -webkit-transform: translateY(-6px) rotate(45deg);
+  transform: translateY(-6px) rotate(45deg);
+}
+
+
+.modal h2 {
+	font-size:20px;
+	padding:0 0 10px 0;
+}
+
+.modal .mph {
+	margin:0 0 40px 0;
+	position:relative;
+}
+
+.modal .mph img {
+	width:100%;
+	height:auto;
+}
+
+.modal .mph .flex-control-nav {
+	bottom: -35px;
+	text-align: center;
+	padding:0 0 0 20px;
+	box-sizing:border-box;
+}
+
+.modal .mph .flex-control-paging li a {
+	background-color: rgba(197, 172, 98, 1);
+	border:#c5ac62 1px solid;
+	box-shadow:none;
+}
+
+.modal .mph .flex-control-paging li a.flex-active ,
+.modal .mph .flex-control-paging li a:hover {
+	background:none;
+}
+
+.modal dl {
+	position:relative;
+	padding:0 0 5px 110px;
+	min-height:28px;
+}
+
+.modal dl dt {
+	display:block;
+	color:#786e51;
+	font-size:18px;
+	font-weight:bold;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.modal dl dt span.s {
+	font-size:14px;
+}
+
+.modal .section_body {
+	padding:15px 0 0 0;
+}
+
+.modal .section_body p {
+	padding:0 0 15px 0;
+}
+
+.modal .section_body img.w {
+	width:100%;
+	height:auto;
+}
+
+
+/* champs_box
+===============================================================*/
+.champs_box {
+	margin:0 13px 75px 13px;
+}
+
+.champs_box h3 {
+	color:#fff;
+	text-align:center;
+	font-size:18px;
+	line-height:1.4;
+	padding:10px;
+	background:url(../images/restaurant/champs/plus.jpg) #85aa3f no-repeat right 50%;
+	background-size:36px 22px;
+	cursor:pointer;
+}
+
+.champs_box h3.open {
+	background:url(../images/restaurant/champs/minus.jpg) #85aa3f no-repeat right 50%;
+	background-size:36px 22px;
+}
+
+.champs_box .list {
+	display:none;
+}
+
+.champs_box p.ph {
+	background-color:#f2f6f0;
+	padding:20px 10px 10px 10px;
+	text-align: center;
+}
+
+.champs_box p.ph img {
+	width:100px;
+	height:auto;
+}
+
+.champs_box ul {
+	background-color:#f2f6f0;
+	padding:20px;
+}
+
+.champs_box ul li {
+	margin:0 0 5px 1.3em;
+	text-indent:-1.3em;
+}
+
+.champs_box .box2 {
+	padding:20px 0 0 0;
+}
+
+.champs_box .box2 img {
+	width:100%;
+	height:auto;
+}
+
+.champs_box .box2 .txt {
+	padding:10px 0 0 0;
+}
+
+
+/* vikingbox
+===============================================================*/
+.vikingbox {
+	margin:0 13px 75px 13px;
+}
+
+.vikingbox .ph ,
+.vikingbox .ph_r {
+	margin:0 -13px;
+}
+
+.vikingbox .ph img ,
+.vikingbox .ph_r img {
+	width:100%;
+	height:auto;
+}
+
+.vikingbox .txt {
+	padding:18px 0 0 0;
+}
+
+
+/* morebox
+===============================================================*/
+.morebox {
+	clear:both;
+	margin:0 13px;
+}
+
+.morebox h3 {
+	background:none;
+	background:url(../images/restaurant/champs/plus2.jpg) #eceae5 no-repeat right 50%;
+	background-size:35px 22px;
+	text-align:center;
+	cursor:pointer;
+	margin:0;
+}
+
+.morebox h3.b {
+	font-size:18px;
+	color:#786e51;
+	font-weight:normal;
+	letter-spacing:0;
+}
+
+
+.morebox h3.open {
+	background:none;
+	background:url(../images/restaurant/champs/minus2.jpg) #eceae5 no-repeat right 50%;
+	background-size:35px 22px;
+}
+
+.morebox .cont {
+	display:none;
+	padding:15px 0;
+}
+
+.morebox .m {
+	padding:0 0 15px 10px;
+}
+
+.morebox .pr {
+	padding:0 0 0 10px;
+}
+
+.morebox p.t.sawa {
+	font-size:18px;
+	padding:0 0 5px 0;
+	margin:0 0 0 -10px;
+	font-weight:bold;
+}
+
+.morebox p.t.sawa span.incon {
+	display:none;
+}
+
+.morebox p.t.sawa span.s {
+	font-size:14px;
+	display:inline-block;
+}
+
+.morebox p.t {
+	padding:0 0 10px 0;
+}
+
+.morebox p.int {
+	margin:0 0 0 1em;
+	text-indent:-1em;
+}
+
+.morebox dl {
+	position:relative;	
+	padding:0 0 5px 0;
+}
+
+.morebox dl:before {
+	content:'';
+	width:100%;
+	position:absolute;
+	top:10px;
+	left:0;
+	border-top:#ededed 1px solid;
+}
+
+.morebox dl dt {
+	float:left;
+	line-height:1.4;
+	background-color:#FFF;
+	position:relative;
+	z-index:20;
+	padding:0 5px 0 0;
+}
+
+.morebox dl dt span {
+	font-size:12px;
+}
+
+.morebox dl dd {
+	float:right;
+	text-align:right;
+	background-color:#FFF;
+	position:relative;
+	z-index:20;
+	padding:0 0 0 5px;
+}
+
+.morebox p.fl ,
+.morebox p.fr {
+	padding:0 0 15px 0;
+}
+
+
+
+/* viking_link 
+===============================================================*/
+/*
+.viking_link {
+	margin:0 13px 75px 13px;
+}
+
+.viking_link a {
+	display:block;
+	margin:0 0 15px 0;
+	padding:43px 17px;
+	font-size:18px;
+	color:#786e51;
+	text-decoration:none;
+	border:#eceae5 5px solid;
+}
+
+.viking_link .lunch a {
+	background:url(../images/restaurant/champs/bg01.jpg) no-repeat right 0;
+	background-size:308px 143px;
+}
+
+.viking_link .dinner a {
+	background:url(../images/restaurant/champs/bg02.jpg) no-repeat right 0;
+	background-size:308px 143px;
+}
+
+.viking_link a .ph {
+	display:none;
+}
+*/
+
+
+.viking_link {
+	margin:0 0 63px 0;
+}
+
+.viking_link .box a {
+	display:block;
+	min-height:58px;
+	padding:0 0 0 81px;
+	margin:0 0 12px 0;
+	position:relative;
+	background-color:#eceae5;
+	text-decoration:none;
+}
+
+.viking_link .box.here a {
+	min-height:56px;
+	border:#786e51 1px solid;
+	overflow:hidden;
+	background:none;
+}
+
+.viking_link a .ph {
+	width:68px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.viking_link .box.here a .ph {
+	position:absolute;
+	top:-1px;
+	left:-1px;
+}
+
+.viking_link a .ph img {
+	width:68px;
+	height:auto;
+}
+
+.viking_link a .s {
+	color:#786e51;
+	font-size:14px;
+	line-height:1.4;
+	padding:7px 0 0 0;
+}
+
+.viking_link a .t {
+	color:#786e51;
+	padding:17px 0 0 0;
+}
+
+
+
+/* attention
+===============================================================*/
+.attention {
+    padding: 0 0 59px 0;
+}
+
+.attention ul {
+	width: auto;
+    margin: 0 13px;
+    padding-left: 1em;
+    box-sizing: border-box;
+}
+.attention ul li {
+    list-style-type: disc;
+	margin-bottom:1em;
+}
+.attention ul li span.kome {
+    display: block;
+    margin-left: 1em;
+    text-indent: -1em;
+    font-size: 14px;
+}
+
+/* planbox
+===============================================================*/
+.planbox {
+	margin:0 0 75px 0;
+}
+
+.planbox .box a {
+	display:block;
+	min-height:88px;
+	padding:0 0 0 105px;
+	margin:0 0 15px 0;
+	position:relative;
+}
+
+.planbox .box:nth-child(3) ,
+.planbox .box:nth-child(4) {
+	display:none;
+}
+
+.planbox_d .box:nth-child(3) ,
+.planbox_d .box:nth-child(4) {
+	display:block;
+}
+
+.party_plan .box:nth-child(3) ,
+.party_plan .box:nth-child(4) {
+	display:block;
+}
+
+.planbox a .ph {
+	width:88px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.planbox a .ph img {
+	width:88px;
+	height:auto;
+}
+
+.planbox .tit {
+	margin:0 0 5px 0;
+	line-height:1.4;
+}
+
+.planbox .cate {
+	display:inline-block;
+	background-color:#ede6d3;
+	border-radius:4px;
+	color:#786e51;
+	font-size:14px;
+	padding:2px 5px;
+	margin:0 0 4px 0;
+}
+
+.planbox .period {
+	color:#786e51;
+	font-size:14px;
+	padding:5px 0 0 0;
+}
+
+
+/* oiwai_plan
+===============================================================*/
+
+.oiwai_plan {
+	margin-bottom: 0;
+	padding: 0 10px 60px;
+}
+
+.oiwai_plan img {
+	width: 100%;
+}
+
+.oiwai_plan p.o_event {
+	padding: 0 5px 0 0;
+}
+
+
+/* breakfast
+===============================================================*/
+
+.breakfast {
+	margin: -20px 13px 60px 13px;
+}
+
+.breakfast .morebtn a {
+	width: 100%;
+	letter-spacing: normal;
+	box-sizing: border-box;
+}
+
+
+/* haccp_link
+===============================================================*/
+
+.haccp_link {
+	background: url(../../images/common/bgline.jpg) repeat 0 0;
+	background-size: 13px 3px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.haccp_box {
+	padding: 40px 15px 20px;
+}
+
+.haccp_box p {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.haccp_box p img {
+	width: 100%;
+}
+
+.haccp_box dl dt {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 15px 0;
+}
+
+.haccp_box dl dd {
+	text-align: left;
+}
+
+.haccp_box .more2 {
+	width: 160px;
+	background: url(../../images/common/ar05.svg) no-repeat right 0px top 47%;
+	background-size: 20px auto;
+	margin: 10px auto;
+}
+
+
+/* chef
+===============================================================*/
+
+section.chef {
+	background: url(../../images/common/bgline.jpg) repeat 0 0;
+	background-size: 13px 3px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+section.chef .chef_box {
+	padding: 40px 15px 20px;
+}
+
+section.chef .chef_box p {
+	width: 70%;
+	margin: 0 auto;
+}
+
+section.chef .chef_box p img {
+	width: 100%;
+}
+
+section.chef .chef_box h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 15px 0;
+}
+
+section.chef .chef_box p.chef_text {
+	text-align: left;
+	width: 100%;
+}
+
+
+/* ADD 2021.11 Bistro Concorde
+========================================== */
+.s_menu_box .box_s p.t span.conl {
+	margin-right: 0;
+	display: block;
+}
+.s_menu_box .box_s p.t span.conl small {
+	margin-left: 3px;
+	font-size: 14px;
+	color: #323232;
+	font-family: "游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
+	font-weight: normal;
+}
+
+.box01 .sb ul.btns .morebtn3.mb20 {
+	margin-bottom: 20px;
+}
+
+.content_inner.mt80 {
+	padding: 40px 0 0;
+}

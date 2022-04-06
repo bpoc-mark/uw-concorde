@@ -1,0 +1,303 @@
+
+/* main_img_detail
+===============================================================*/
+.main_img_detail .bg_top {
+	background:url(../images/rooms/top/main01.jpg?20210628) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_lead.main_lead_none .camp {
+	padding-top: 13px;
+}
+
+.main_lead.main_lead_none .camp img {
+	max-width: 100%;
+}
+
+
+
+
+/* checkin
+===============================================================*/
+.checkin {
+	margin:0 0 75px 0;
+}
+
+.checkin .box p {
+	text-align:center;
+}
+
+
+
+/* rooms_box
+===============================================================*/
+.rooms_box {
+	margin:0 13px 40px 13px;
+}
+
+.rooms_box_end {
+	margin:0 13px 75px 13px;
+}
+
+.rooms_box .p {
+	margin:0 0 12px 0;
+	padding:15px;
+}
+
+.rooms_box .p1 {
+	background:url(../images/rooms/top/bg01.jpg) no-repeat center top;
+	background-size:cover;
+}
+
+.rooms_box .p2 {
+	background:url(../images/rooms/top/bg02.png) no-repeat center top;
+	background-size:cover;
+}
+
+.rooms_box .p3 {
+	background:url(../images/rooms/top/bg03.png) no-repeat center top;
+	background-size:cover;
+}
+
+.rooms_box .p4 {
+	background:url(../images/rooms/top/bg04.png) no-repeat center top;
+	background-size:cover;
+}
+
+.rooms_box .p5 {
+	background:url(../images/rooms/top/bg05.png) no-repeat center top;
+	background-size:cover;
+}
+
+
+.rooms_box .p .in {
+	padding:15px;
+	background-color:rgba(255,255,255,.8);
+}
+
+.rooms_box .p .in .img {
+	text-align:center;
+	padding:0 0 5px 0;
+}
+
+.rooms_box .p .in .img img {
+	width:40px;
+}
+
+
+.rooms_box .in .t {
+	color:#786e51;
+	font-size:22px;
+	line-height:1.3;
+	text-align:center;
+}
+
+.rooms_box .in .t span {
+	display:block;
+	font-size:16px;
+}
+
+
+/* bn_area
+===============================================================*/
+.bn_area {
+	margin:0 13px 20px 13px;
+}
+
+.bn_area .box a {
+	display:block;
+	min-height:100px;
+	background-color:#b3b822;
+	margin:0 0 20px 0;
+	padding:0 0 0 130px;
+	position:relative;
+	text-decoration:none;
+}
+
+.bn_area .box a .ph {
+	height:100px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.bn_area .box a .ph img {
+	height:100px;
+}
+
+.bn_area .box a .t {
+	padding:36px 0 25px 0;
+	text-align:center;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	background:url(../../images/common/ar03.svg) no-repeat center bottom;
+	background-size:30px auto;
+}
+
+.inbound {
+	text-align:center;
+	margin:0 13px 40px 13px;
+}
+
+.inbound img {
+	width:100%;
+}
+
+
+
+/* rooms_detail
+===============================================================*/
+.rooms_detail {
+	padding:15px 13px 0 13px;
+}
+
+.rooms_detail .mid {
+	background-color:#f3f3f3;
+	padding:13px;
+}
+
+.rooms_detail .in ul li b {
+	display:none;
+}
+
+.rooms_detail ul li.red{
+	font-size: 20px;
+	font-weight: 700;
+	color: #a30a0a;
+}
+
+
+/* sub_detail
+===============================================================*/
+.sub_detail {
+	margin:0 0 75px 0;
+}
+
+.sub_detail .ph {
+	margin:0 0 35px 0;
+}
+
+.sub_detail .ph img {
+	width:100%;
+}
+
+.sub_detail h2.def:after {
+	margin: 6px auto;
+}
+
+
+/* single
+===============================================================*/
+.main_img_detail .single01 {
+	background:url(../images/rooms/single/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .single02 {
+	background:url(../images/rooms/single/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .single03 {
+	background:url(../images/rooms/single/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+/* double
+===============================================================*/
+.main_img_detail .double01 {
+	background:url(../images/rooms/double/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .double02 {
+	background:url(../images/rooms/double/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .double03 {
+	background:url(../images/rooms/double/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+/* twin
+===============================================================*/
+.main_img_detail .twin01 {
+	background:url(../images/rooms/twin/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .twin02 {
+	background:url(../images/rooms/twin/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .twin03 {
+	background:url(../images/rooms/twin/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+/* ctwin
+===============================================================*/
+.main_img_detail .ctwin01 {
+	background:url(../images/rooms/ctwin/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .ctwin02 {
+	background:url(../images/rooms/ctwin/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .ctwin03 {
+	background:url(../images/rooms/ctwin/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+/* dtwin
+===============================================================*/
+.main_img_detail .dtwin01 {
+	background:url(../images/rooms/dtwin/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .dtwin02 {
+	background:url(../images/rooms/dtwin/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .dtwin03 {
+	background:url(../images/rooms/dtwin/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+/* triple
+===============================================================*/
+.main_img_detail .triple01 {
+	background:url(../images/rooms/triple/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .triple02 {
+	background:url(../images/rooms/triple/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .triple03 {
+	background:url(../images/rooms/triple/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+/* sweet
+===============================================================*/
+.main_img_detail .sweet01 {
+	background:url(../images/rooms/sweet/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .sweet02 {
+	background:url(../images/rooms/sweet/main02.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+.main_img_detail .sweet03 {
+	background:url(../images/rooms/sweet/main03.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+

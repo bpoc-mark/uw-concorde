@@ -1,0 +1,438 @@
+
+/* main_img_detail
+===============================================================*/
+.main_img_detail .bg_top {
+	background:url(../images/inbound/main01.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+
+
+/* point
+===============================================================*/
+.point {
+	margin:0 0 20px 0;
+}
+
+.point02 {
+	padding:20px 0 0 0;
+}
+
+.point .tl {
+	padding:0 12px;
+	font-size:20px;
+	color:#786e51;
+	font-weight:bold;
+	text-align:center;
+}
+
+.point .wan {
+	width: 80vw;
+	height:122px;
+	margin: 50px auto 0;
+	/*position:relative;*/
+}
+.point .wan p.bg {
+	float: left;
+}
+
+.point .wan p.txt {
+	position: relative;
+	float: right;
+	color:#fff;
+	background: #47a3ad;
+	width: 53vw;
+	margin: 10px 0 0 20px;
+	padding: 1em 1em;
+	border-radius: 5px;
+}
+
+.point .wan p.txt::before{
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: -12px;
+	top: 30%;
+	background: #47a3ad;
+	width: 13px;
+	height: 20px;
+	-webkit-clip-path:polygon(100% 0, 0 50%, 100% 100%);
+	clip-path: polygon(100% 0, 0 50%, 100% 100%);
+}
+
+.point02 .wan p.txt {
+	color:#fff;
+}
+
+@media screen and (max-width: 650px) {
+	.point{
+		margin-bottom: 9vw;
+	}
+
+	.point .wan p.bg{
+		width: 18vw;
+	}
+
+	.point .wan p.bg img{
+		width: 100%;
+	}
+
+	.point .wan p.txt{
+		width: 62%;
+		margin: 0 0 0 20px;
+	}
+
+	.point .wan p.txt::before{
+		top: 20%;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.point{
+		margin-bottom: 18vw;
+	}
+
+	.point .wan p.txt{
+		width: 59%;
+	}
+
+	.point .wan p.txt::before{
+		top: 10%;
+	}
+
+	.point02{
+		margin-bottom: 23vw;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.point{
+		margin-bottom: 35vw;
+	}
+	.point .wan p.txt{
+		width: 57%;
+	}
+}
+
+
+/* pbox
+===============================================================*/
+.pbox {
+	margin:0 0 10px 0;
+	background-color:#eceae5;
+}
+
+.pbox h3 {	
+	font-size:22px;
+	line-height:1.3;
+	text-align:center;
+	color:#786e51;
+	cursor:pointer;
+}
+
+.pbox h3.ic01 {
+	background:url(../images/inbound/ic01.png) no-repeat center 8px;
+	background-size:52px 50px;
+}
+
+.pbox h3.ic02 {
+	background:url(../images/inbound/ic02.png) no-repeat center 8px;
+	background-size:52px 50px;
+}
+
+.pbox h3.ic03 {
+	background:url(../images/inbound/ic03.png) no-repeat center 8px;
+	background-size:52px 50px;
+}
+
+
+.pbox h3 span {
+	display:block;
+	padding:65px 0 8px 0;
+	background:url(../images/inbound/plus.png) no-repeat top 50% right 12px;
+	background-size:22px 22px;
+}
+
+.pbox h3.open span {
+	background:url(../images/inbound/minus.png) no-repeat top 50% right 12px;
+	background-size:22px 22px;
+}
+
+.pbox .spbox {
+	display:none;
+	padding:10px;
+}
+
+.pbox .spbox .ph img {	
+	width:100%;
+}
+
+.pbox .spbox dl {	
+	background-color:#fff;
+	padding:17px 12px 15px 12px;
+}
+
+.pbox .spbox dl dt {	
+	font-size:20px;
+	line-height:1.4;
+	text-align:center;
+	padding:0 0 10px 0;
+	font-weight:bold;
+}
+
+
+/* tabbox
+===============================================================*/
+.tabbox .tit {
+	min-height:100px;
+	background-color:#eceae5;
+	padding:10px 42px 10px 125px;
+	background:url(../images/inbound/plus.png) #eceae5 no-repeat top 50% right 12px;
+	background-size:22px 22px;
+	position:relative;
+	cursor:pointer;
+	margin:0 0 15px 0;
+	
+}
+
+.tabbox .tit.open {
+	background:url(../images/inbound/minus.png) #eceae5 no-repeat top 50% right 12px;
+	background-size:22px 22px;	
+}
+
+.tabbox .tit .ph {
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+
+.tabbox .tit .ph img {
+	height:100px;
+}
+
+.tabbox .tit .t {
+	color:#786e51;
+	font-size:21px;
+	font-weight:bold;
+	padding:32px 0 0 0;
+}
+.tabbox .tit .second_item {
+	padding:20px 0 0 0;
+}
+
+.tabbox .boxs {
+	display:none;
+	border:#eceae5 10px solid;
+	padding:10px;
+	position:relative;
+	top:-15px;
+	left:0;
+}
+
+.tabbox .boxs .ph {
+	margin: 0 0 35px 0;
+}
+
+.tabbox .boxs .ph img {
+	width:100%;
+}
+
+
+.tabbox .close {
+	padding:30px 0 0 0;
+}
+
+.tabbox .close a {
+	display:block;
+	width:80%;
+	margin:0 auto;
+	padding:12px 0;
+	background-color:#eceae5;
+	text-align:center;
+	color:#786e51;
+	font-size:18px;
+	text-decoration:none;
+	transition: all 300ms 0s ease;
+}
+
+
+/* subbox
+===============================================================*/
+.subbox {
+	margin:0 auto 20px auto;
+}
+
+.subbox .box {
+	margin:0 0 40px 0;
+}
+
+.subbox .box .ph {
+	margin:0 0 15px 0;
+	padding:0 !important;
+}
+
+.subbox .box .ph img {
+	width:100%;
+}
+
+.subbox .box h3 {
+	font-size:20px;
+	text-align:center;
+	margin:0 0 10px 0;
+	padding:0 12px;
+}
+
+.subbox .box p {
+	font-size:16px;
+	padding:0 12px;
+}
+
+.subbox .box p.pd {
+	margin:0 0 20px 0;
+}
+
+.subbox .box h4 {
+	color:#786e51;
+	font-size:16px;
+	margin:0 0 10px 10px;
+}
+
+
+/* form_wrap
+===============================================================*/
+.form_wrap h5 {
+	font-size:24px;
+	text-align:center;
+	position:relative;
+}
+
+.form_wrap h5:after {
+	content:'';
+	background-color:#333333;
+	width:28px;
+	height:1px;
+	display:block;
+	margin:6px auto 20px auto;
+}
+
+
+.form_wrap ul.sub li {
+	text-align:center;
+}
+
+.form_wrap ul.sub li.tel  {
+	font-size:35px;
+	font-weight:bold;
+}
+
+.form_wrap ul.sub li.tel a {
+	background:url(../images/inbound/tel.png) no-repeat 0 50%;
+	background-size:20px 25px;
+	padding:0 0 0 25px;
+}
+
+.form_wrap ul.sub li.btn {
+	width:80%;
+	margin:0 auto 40px auto;
+}
+
+.form_wrap ul.sub li.btn a {
+	display:block;
+	background-color:#c0743b;
+	color:#fff;
+	font-size:18px;
+	text-align:center;
+	padding:12px 0;
+	text-decoration:none;
+	transition: all 300ms 0s ease;
+}
+
+
+
+
+/* rooms_box
+===============================================================*/
+.rooms_box {
+	margin:0 13px 40px 13px;
+}
+
+.rooms_box_end {
+	margin:0 13px 75px 13px;
+}
+
+.rooms_box .p {
+	margin:0 0 12px 0;
+	padding:15px;
+}
+
+.rooms_box .p1 {
+	background:url(../images/rooms/top/bg01.jpg) no-repeat center top;
+	background-size:cover;
+}
+
+.rooms_box .p2 {
+	background:url(../images/rooms/top/bg02.png) no-repeat center top;
+	background-size:cover;
+}
+
+.rooms_box .p3 {
+	background:url(../images/rooms/top/bg03.png) no-repeat center top;
+	background-size:cover;
+}
+
+.rooms_box .p4 {
+	background:url(../images/rooms/top/bg04.png) no-repeat center top;
+	background-size:cover;
+}
+
+.rooms_box .p5 {
+	background:url(../images/rooms/top/bg05.png) no-repeat center top;
+	background-size:cover;
+}
+
+
+.rooms_box .p .in {
+	padding:15px;
+	background-color:rgba(255,255,255,.8);
+}
+
+.rooms_box .p .in .img {
+	text-align:center;
+	padding:0 0 5px 0;
+}
+
+.rooms_box .p .in .img img {
+	width:40px;
+}
+
+
+.rooms_box .in .t {
+	color:#786e51;
+	font-size:22px;
+	line-height:1.3;
+	text-align:center;
+}
+
+.rooms_box .in .t span {
+	display:block;
+	font-size:16px;
+}
+
+
+
+/* rooms_detail
+===============================================================*/
+.rooms_detail {
+	padding:15px 13px 0 13px;
+}
+
+.rooms_detail .mid {
+	background-color:#f3f3f3;
+	padding:13px;
+}
+
+.rooms_detail .in ul li b {
+	display:none;
+}
+
+

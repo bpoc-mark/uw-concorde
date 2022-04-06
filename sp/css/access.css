@@ -1,0 +1,203 @@
+
+/* main_img_detail
+===============================================================*/
+.main_img_detail img{
+	width: 100%;
+}
+.acc_cen .s{
+	padding-top: 0px;
+	margin-bottom: 20px;
+}
+.main_img_detail{
+	position: relative;
+}
+.main_img_detail .slides .single01{
+background:url(../../sp/images/guide/ph15.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+.main_img_detail .slides .single02{
+background:url(../../sp/images/guide/ph16.jpg) no-repeat left bottom;
+	background-size:cover;
+}
+
+
+
+/* box01_02
+===============================================================*/
+
+/* anchor
+===============================================================*/
+.anchor {
+	margin:30px 13px 20px 13px;
+}
+
+.anchor_pt {
+	padding:30px 0 0 0;
+}
+
+.anchor li a {
+	display:block;
+	padding:10px 18px 10px 18px;
+	margin:0 0 10px 0;
+	text-decoration:none;
+	background: url(../images/common/ar03.jpg) #eceae5 no-repeat right 50%;
+	background-size:21px 6px;
+}
+
+/* access 
+===============================================================*/
+.alink,
+.main_box{
+	position: relative;
+}
+.acc_p01{
+	padding-left: 10px; 
+}
+.acc_p{
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+div.main_box .sp_int{
+    text-indent: -17px;
+	padding-left: 27px;
+}
+.link{
+	padding: 0 14px 0 0;
+    text-decoration: underline;
+    background: url(../../images/common/ar02.svg) no-repeat right 5px;
+    background-size: 7px auto;
+}
+.acc_cen{
+	margin-bottom: 75px;
+}
+.acc_cen02 {
+	margin-bottom: 20px !important;
+}
+.acc_bg{
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+
+.acc_bg05 img {
+	width:100%;
+}
+
+h3.bg_tit {
+	padding-left: 10px;
+    margin-bottom: 10px;
+	font-size:18px;
+	font-weight:normal;
+}
+
+.acc_bg .link span {
+	display:inline-block;
+	padding:0 0 0 18px;
+    background: url(../../images/info/access/pin.png) no-repeat left 50%;
+    background-size: 13px 19px;
+	text-decoration: underline;
+}
+
+.acc_box h3{
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.acc_box .box02 h4.t_int,
+.acc_box .box02 ul li,
+.acc_box .box02 p{
+	margin-left:13px;
+	margin-bottom: 10px;
+}
+.acc_box .box02 li.t_int02{
+	padding-left: 23px;
+}
+.acc_box .box02 li.kome{
+	margin-left: 22px;
+	text-indent: -14px;
+}
+
+.clbn {
+	width:100%;
+	box-sizing: border-box;
+	padding:0 13px;
+	margin:0 auto 40px auto;
+	position: relative;
+	top:-20px;
+	left:0;	
+}
+
+.clbn img {
+	width:100%;	
+}
+
+.info_box{
+	margin-left: 17px;
+}
+.ph01{
+	margin-bottom: 15px;
+}
+.ph01 img{
+	width: 100%;
+	height: auto;
+}
+.alin{
+	align-items: center;
+}
+.info_box h4.g{
+	font-size: 18px;
+	color: #786e51;
+}
+.acc_bg p.t_int3{
+	padding-left: 23px;
+}
+.b{
+	font-weight: bold;
+}
+.info_box ul.l_s{
+	margin-bottom: 15px;
+}
+.acc_bg .mb,
+.info_box .mb{
+	margin-bottom: 5px;
+}
+.lead{
+	margin-bottom: 20px;
+}
+.t_int04{
+	padding-left: 10px;	
+}
+.int06 p,
+.t_int05{
+	padding-left: 10px;
+}
+.b_s{
+	font-weight: 400;
+	padding-left: 6px;
+}
+.acc_box .s_h3{
+	margin: 5px 0 0 0;
+}
+.l_s .sp_int{
+	text-indent: -20px;
+	padding-left: 20px;
+}
+.info_box h4.sp_int03{
+	margin-bottom: 0px !important;
+}
+
+
+
+/* ADD 2019.05
+=================================================== */
+.shuttlebus{
+    margin: -40px 0 75px 10px;
+    border: #000000 1px solid;
+    padding: 15px;
+}
+.shuttlebus p {
+    margin-top: 5px;
+}
+.shuttlebus p.news_link {
+    margin-top: 10px;
+}
