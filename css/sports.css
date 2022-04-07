@@ -1,0 +1,302 @@
+/* main_img_detail
+===============================================================*/
+.main_img_detail .bg {
+  background: url(../images/sports/main01.jpg) no-repeat center 50%;
+  background-size: cover;
+}
+
+.breakfast_info {
+  background-color: #faf6e9;
+  padding: 24px 80px;
+  color: #a20000;
+}
+
+.breakfast_info .flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 25px 0 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.breakfast_info .flex-box figure {
+  margin: 0 15px;
+  max-width: 350px;
+  width: calc(50% - 30px);
+}
+
+.breakfast_info .flex-box figure img {
+  width: 100%;
+}
+
+/* gallery
+===============================================================*/
+.gallery {
+  margin: 0 0 75px 0;
+  padding: 40px 98px;
+  background: url(../images/rooms/top/bg02.jpg) repeat-y right top;
+}
+
+.gallery ul li {
+  width: 20%;
+  float: left;
+}
+
+.gallery ul li a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery ul li img {
+  width: 100%;
+  -webkit-transition: all 300ms 0s ease;
+  transition: all 300ms 0s ease;
+}
+
+.gallery ul li a:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.gallery ul li img.ic {
+  width: 23px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.sports-content {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sports-content .bef_01 {
+  font-size: 32px;
+  line-height: 45px;
+  letter-spacing: .08em;
+  color: #333333;
+}
+
+.sports-content .sect-1 {
+  padding: 47px 0 0 90px;
+}
+
+.sports-content .sect-1 .wrapper h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.sports-content .sect-1 .wrapper p {
+  text-align: center;
+}
+
+.sports-content .sect-1 .wrapper .g_box01 {
+  padding: 45px 40px;
+  margin-top: 75px;
+}
+
+.sports-content .sect-1 .wrapper .g_box01 .content {
+  background-color: #fff;
+  padding: 32px 0 50px;
+}
+
+.sports-content .sect-1 .wrapper .g_box01 .content .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 60px 70px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sports-content .sect-1 .wrapper .g_box01 .content .row .col {
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sports-content .sect-1 .wrapper .g_box01 .content .row .col:first-child {
+  padding-right: 45px;
+}
+
+.sports-content .sect-1 .wrapper .g_box01 .content .row .col:last-child p {
+  display: none;
+}
+
+.sports-content .sect-1 .wrapper .g_box01 .content .row .col img {
+  width: 100%;
+}
+
+.sports-content .sect-1 .wrapper .g_box01 .content .row .col table {
+  width: 100%;
+}
+
+.sports-content .sect-1 .wrapper .g_box01 .content .row .col table tr {
+  border-bottom: 1px solid #786e51;
+}
+
+.sports-content .sect-1 .wrapper .g_box01 .content .row .col table tr th {
+  text-align: center;
+  font-weight: 500;
+  color: #786e51;
+  padding: 11px 0 5px;
+}
+
+.sports-content .sect-1 .wrapper .g_box01 .content .row .col table tr th:first-child {
+  width: 70%;
+}
+
+.sports-content .sect-1 .wrapper .g_box01 .content .row .col table tr th:last-child {
+  width: 30%;
+}
+
+.sports-content .sect-1 .wrapper .g_box01 .content .row .col table tr td {
+  text-align: center;
+  padding: 12px 0 6px;
+}
+
+.sports-content .sect-2 {
+  padding: 0 0 35px 90px;
+}
+
+.sports-content .sect-2 .wrapper .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -18px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sports-content .sect-2 .wrapper .row .col {
+  width: calc(100% / 3);
+  padding: 0 18px 42px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sports-content .sect-2 .wrapper .row .col h3 {
+  display: none;
+}
+
+.sports-content .sect-2 .wrapper .row .col img {
+  width: 100%;
+}
+
+.sports-content .sect-2 .wrapper .row .col h4 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27.6px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.sports-content .sect-3 .wrapper {
+  padding: 0 50px 0 140px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .sports-content .sect-3 .wrapper {
+    padding: 0 50px 0 90px;
+  }
+}
+
+.sports-content .sect-3 .wrapper .content {
+  background-color: #fff;
+  padding: 22px 0 40px;
+}
+
+.sports-content .sect-3 .wrapper .content p {
+  margin-top: 5px;
+  margin-bottom: 19px;
+}
+
+.sports-content .sect-3 .wrapper .content .cta-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sports-content .sect-3 .wrapper .content .cta-wrap div {
+  text-align: center;
+  width: 340px;
+  margin-right: 10px;
+}
+
+.sports-content .sect-3 .wrapper .content .cta-wrap div p {
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.sports-content .sect-3 .wrapper .content .cta-wrap div p .btnTel {
+  font-size: 32px;
+  letter-spacing: .075em;
+}
+
+.sports-content .sect-3 .wrapper .content .cta-wrap div span {
+  display: block;
+  font-size: 13px;
+  text-align: center;
+}
+
+.sports-content .sect-3 .wrapper .content .cta-wrap .btnContact {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 340px;
+  height: 55px;
+  background-color: #a99c77;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: .15em;
+  margin-left: 10px;
+}
+
+.sports-content .sect-3 .wrapper .content .cta-wrap .btnContact::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+.sports-content .sect-3 .wrapper .content .cta-wrap .btnContact::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  -webkit-transform: translate(0, -4px) rotate(35deg);
+          transform: translate(0, -4px) rotate(35deg);
+}
+/*# sourceMappingURL=sports.css.map */

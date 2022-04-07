@@ -1,0 +1,245 @@
+
+/* main_img_detail
+===============================================================*/
+.main_img_detail .bg {
+	background:url(../images/sports/main01.jpg) no-repeat center 50%;
+	background-size:cover;
+}
+
+.breakfast_info{
+    background-color: #faf6e9;
+	padding: 24px 80px;
+	color: #a20000;
+}
+.breakfast_info .flex-box {
+	display: flex;
+	margin: 25px 0 15px;
+	justify-content: center;
+}
+.breakfast_info .flex-box figure {
+	margin: 0 15px;
+	max-width: 350px;
+	width: calc(50% - 30px);
+}
+.breakfast_info .flex-box figure img { width: 100%;}
+
+
+
+/* gallery
+===============================================================*/
+.gallery {
+	margin:0 0 75px 0;
+	padding:40px 98px;
+	background:url(../images/rooms/top/bg02.jpg) repeat-y right top;
+}
+
+.gallery ul li {
+	width:20%;
+	float:left;
+}
+
+
+.gallery ul li a {
+	display:block;
+	position:relative;
+	overflow:hidden;
+}
+
+
+.gallery ul li img {
+	width:100%;
+	transition: all 300ms 0s ease;
+}
+
+.gallery ul li a:hover img {
+	transform: scale(1.1);
+}
+
+.gallery ul li img.ic {
+	width:23px;
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+
+.sports-content {
+	box-sizing: border-box;
+	.bef_01{
+		font-size: 32px;
+		line-height: 45px;
+		letter-spacing: .08em;
+		color: #333333;
+	}
+	.sect-1{
+		padding: 47px 0 0 90px;
+		.wrapper{
+			h2{
+				text-align: center;
+				margin-bottom: 10px;
+			}
+			p{
+				text-align: center;
+			}
+			.g_box01{
+				padding: 45px 40px;
+				margin-top: 75px;
+				.content{
+					background-color: #fff;
+					padding: 32px 0 50px;
+					.row{
+						display: flex;
+						flex-wrap: wrap;
+						padding: 60px 70px 0;
+						box-sizing: border-box;
+						.col{
+							width: 50%;
+							box-sizing: border-box;
+							&:first-child{
+								padding-right: 45px;
+							}
+							&:last-child{
+								p{
+									display: none;
+								}
+							}
+							img{
+								width: 100%;
+							}
+							table{
+								width: 100%;
+								tr{
+									border-bottom: 1px solid #786e51;
+									th{
+										&:first-child{
+											width: 70%;
+										}
+										&:last-child{
+											width: 30%;
+										}
+										text-align: center;
+										font-weight: 500;
+										color: #786e51;
+										padding: 11px 0 5px;
+									}
+									td{
+										text-align: center;
+										padding: 12px 0 6px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.sect-2{
+		padding: 0 0 35px 90px;
+		.wrapper{
+			.row{
+				display: flex;
+				flex-wrap: wrap;
+				margin: 0 -18px 0;
+				box-sizing: border-box;
+				.col{
+					width: calc(100% / 3);
+					padding: 0 18px 42px;
+					box-sizing: border-box;
+					h3{
+						display: none;
+					}
+					img{
+						width: 100%;
+					}
+					h4{
+						text-align: center;
+						font-weight: 700;
+						font-size: 18px;
+						line-height: 27.6px;
+						margin-top: 10px;
+						margin-bottom: 8px;
+					}
+				}
+			}
+		}
+	}
+	.sect-3{
+		.wrapper{
+			padding: 0 50px 0 140px;
+			@media only screen and (max-width: 1000px) {
+				padding: 0 50px 0 90px;
+			}
+			.content{
+				background-color: #fff;
+				padding: 22px 0 40px;
+				h2{
+
+				}
+				p{
+					margin-top: 5px;
+					margin-bottom: 19px;
+				}
+				.cta-wrap{
+					display: flex;
+					justify-content: center;
+					flex-wrap: wrap;
+					div{
+						text-align: center;
+						width: 340px;
+						margin-right: 10px;
+						p{
+							text-align: center;
+							line-height: 1;
+							margin-bottom: 0;
+							margin-top: 0;
+							.btnTel{
+								font-size: 32px;
+								letter-spacing: .075em;
+							}
+						}
+						span{
+							display: block;
+							font-size: 13px;
+							text-align: center;
+						}
+					}
+					.btnContact{
+						position: relative;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						width: 340px;
+						height: 55px;
+						background-color: #a99c77;
+						color: #fff;
+						font-size: 18px;
+						letter-spacing: .15em;
+						margin-left: 10px;
+						&::after{
+							content: "";
+							display: block;
+							width: 30px;
+							height: 1px;
+							background-color: #fff;
+							position: absolute;
+							top: 50%;
+							right: 15px;
+							transform: translate(0, -50%);
+						}
+						&::before{
+							content: "";
+							display: block;
+							width: 10px;
+							height: 1px;
+							background-color: #fff;
+							position: absolute;
+							top: 50%;
+							right: 15px;
+							transform: translate(0, -4px) rotate(35deg);
+						}
+					}
+				}
+			}
+		}
+	}
+}
