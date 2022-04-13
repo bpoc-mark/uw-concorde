@@ -48,7 +48,7 @@
                             </ul>
                         </div>
                         <!--======================== //topic_path =====================================-->
-                        <div class="bg bg_top bg_breakfast01"></div>
+                        <div class="bg bg_top bg_sport01"></div>
                     </div>
 					<div class="sports-content">
                         <section class="sect-1">

@@ -1,8 +1,9 @@
 /* main_img_detail
 ===============================================================*/
-.main_img_detail .bg_breakfast01 {
+.main_img_detail .bg_sport01 {
   background: url(../images/sports/sp/main01.jpg) no-repeat left bottom;
   background-size: cover;
+  height: 250px !important;
 }
 
 .breakfast_info {
